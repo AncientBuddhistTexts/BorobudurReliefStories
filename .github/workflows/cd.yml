@@ -1,0 +1,24 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  Android:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Android
+      run: |
+        nuget restore
+        msbuild BorobudurReliefStories/BorobudurReliefStories.Android/BorobudurReliefStories.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+
+  iOS:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: iOS
+      run: |
+        nuget restore
+        msbuild BorobudurReliefStories/BorobudurReliefStories.iOS/BorobudurReliefStories.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
