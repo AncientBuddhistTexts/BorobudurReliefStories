@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using MvvmCross.Forms.Platforms.Android.Views;
-using BorobudurReliefStories.Core.ViewModels.Main;
-
 namespace BorobudurReliefStories.Droid
 {
+    using Android.App;
+    using Android.OS;
+    using MvvmCross.Forms.Platforms.Android.Views;
+    using BorobudurReliefStories.Core.ViewModels.Main;
+    using Android.Content.PM;
+
     [Activity(
-        Theme = "@style/AppTheme")]
+        Theme = "@style/AppTheme",
+        ScreenOrientation = ScreenOrientation.SensorLandscape)]
     public class MainActivity : MvxFormsAppCompatActivity<MainViewModel>
     {
         protected override void OnCreate(Bundle bundle)

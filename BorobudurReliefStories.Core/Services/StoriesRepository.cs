@@ -1,10 +1,11 @@
-namespace BorobudurReliefStories.Core.Models
+namespace BorobudurReliefStories.Core.Services
 {
     using System.Collections.Generic;
     using System.IO;
     using System.Text.Json;
+    using BorobudurReliefStories.Core.Models;
 
-    public class StoriesData : IStoriesData
+    public class StoriesRepository : IStoriesRepository
     {
         public IEnumerable<Story> Load()
         {
@@ -15,7 +16,7 @@ namespace BorobudurReliefStories.Core.Models
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             };
 
-            var stream = typeof(StoriesData).Assembly.GetManifestResourceStream($"{typeof(StoriesData).Namespace}.StoriesRepository.json");
+            var stream = typeof(StoriesRepository).Assembly.GetManifestResourceStream($"{typeof(StoriesRepository).Namespace}.StoriesRepository.json");
             using var reader = new StreamReader(stream);
             return JsonSerializer.Deserialize<Story[]>(reader.ReadToEnd(), opt);
         }

@@ -1,10 +1,10 @@
-using System.Threading.Tasks;
-using Android.App;
-using Android.OS;
-using MvvmCross.Forms.Platforms.Android.Views;
-
 namespace BorobudurReliefStories.Droid.Views
 {
+    using System.Threading.Tasks;
+    using Android.App;
+    using Android.OS;
+    using MvvmCross.Forms.Platforms.Android.Views;
+
     [Activity(
        NoHistory = true,
        MainLauncher = true,

@@ -1,17 +1,18 @@
-namespace BorobudurReliefStories.Core.Test.Models
+namespace BorobudurReliefStories.Core.Test.Services
 {
     using System;
     using System.Linq;
     using BorobudurReliefStories.Core.Models;
+    using BorobudurReliefStories.Core.Services;
     using FluentAssertions;
     using Xunit;
 
-    public class StoriesDataTests
+    public class StoriesRepositoryTests
     {
         [Fact]
         public void LoadRepository()
         {
-            var stories = new StoriesData().Load();
+            var stories = new StoriesRepository().Load();
 
             stories.Should().HaveCount(2);
             stories.ElementAt(1).Should().BeEquivalentTo(new Story

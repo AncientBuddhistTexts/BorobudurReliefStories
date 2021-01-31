@@ -6,10 +6,10 @@ on:
 
 jobs:
   Tests:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Android
+    - name: Run tests
       run: |
         dotnet test --configuration "Debug" BorobudurReliefStories.Core.Test/BorobudurReliefStories.Core.Test.csproj
         dotnet test --configuration "Release" BorobudurReliefStories.Core.Test/BorobudurReliefStories.Core.Test.csproj
@@ -18,7 +18,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Android
+    - name: Build for Droid
       run: |
         nuget restore
         msbuild BorobudurReliefStories.Droid/BorobudurReliefStories.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
@@ -28,7 +28,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
-    - name: iOS
+    - name: Build for iOS
       run: |
         nuget restore
         msbuild BorobudurReliefStories.iOS/BorobudurReliefStories.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
