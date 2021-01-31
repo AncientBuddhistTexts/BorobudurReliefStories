@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <IdeInternalBuild>false</IdeInternalBuild>
 
     <!-- Code Analysis -->

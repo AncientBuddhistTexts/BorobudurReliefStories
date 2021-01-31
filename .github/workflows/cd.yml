@@ -5,6 +5,15 @@ on:
     branches: [ master ]
 
 jobs:
+  Tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Android
+      run: |
+        dotnet test --configuration "Debug" BorobudurReliefStories.Core.Test/BorobudurReliefStories.Core.Test.csproj
+        dotnet test --configuration "Release" BorobudurReliefStories.Core.Test/BorobudurReliefStories.Core.Test.csproj
+
   Android:
     runs-on: macos-latest
     steps:
