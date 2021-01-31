@@ -12,7 +12,8 @@ jobs:
     - name: Android
       run: |
         nuget restore
-        msbuild BorobudurReliefStories/BorobudurReliefStories.Android/BorobudurReliefStories.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild BorobudurReliefStories/BorobudurReliefStories.Droid/BorobudurReliefStories.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild BorobudurReliefStories/BorobudurReliefStories.Droid/BorobudurReliefStories.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
 
   iOS:
     runs-on: macos-latest
@@ -22,3 +23,4 @@ jobs:
       run: |
         nuget restore
         msbuild BorobudurReliefStories/BorobudurReliefStories.iOS/BorobudurReliefStories.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild BorobudurReliefStories/BorobudurReliefStories.iOS/BorobudurReliefStories.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
