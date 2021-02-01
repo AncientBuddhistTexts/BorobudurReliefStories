@@ -7,7 +7,7 @@ namespace BorobudurReliefStories.Core.Services
 
     public class StoriesRepository : IStoriesRepository
     {
-        public IEnumerable<Story> Load()
+        public IEnumerable<Story> GetStories()
         {
             var opt = new JsonSerializerOptions
             {

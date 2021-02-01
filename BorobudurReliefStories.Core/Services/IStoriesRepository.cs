@@ -5,6 +5,6 @@ namespace BorobudurReliefStories.Core.Services
 
     public interface IStoriesRepository
     {
-        public IEnumerable<Story> Load();
+        public IEnumerable<Story> GetStories();
     }
 }

@@ -18,8 +18,8 @@
     <Compile Update="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Pages\HomePage.xaml.cs">
-      <DependentUpon>%(Filename)</DependentUpon>
+    <Compile Update="Pages\StoriesPage.xaml.cs">
+      <DependentUpon>StoriesPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Resources\Colors.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
@@ -30,7 +30,7 @@
     <None Update="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <None Update="Pages\HomePage.xaml">
+    <None Update="Pages\StoriesPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Resources\Colors.xaml">

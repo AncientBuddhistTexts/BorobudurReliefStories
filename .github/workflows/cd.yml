@@ -12,7 +12,9 @@ jobs:
     - name: Run tests
       run: |
         dotnet test --configuration "Debug" BorobudurReliefStories.Core.Test/BorobudurReliefStories.Core.Test.csproj
+        dotnet test --configuration "Debug" BorobudurReliefStories.UI.Test/BorobudurReliefStories.UI.Test.csproj
         dotnet test --configuration "Release" BorobudurReliefStories.Core.Test/BorobudurReliefStories.Core.Test.csproj
+        dotnet test --configuration "Release" BorobudurReliefStories.UI.Test/BorobudurReliefStories.UI.Test.csproj
 
   Android:
     runs-on: macos-latest

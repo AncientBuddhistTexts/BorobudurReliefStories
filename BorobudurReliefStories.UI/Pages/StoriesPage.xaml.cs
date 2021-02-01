@@ -1,21 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MvvmCross.Forms.Presenters.Attributes;
-using MvvmCross.Forms.Views;
-using BorobudurReliefStories.Core.ViewModels.Home;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
 namespace BorobudurReliefStories.UI.Pages
 {
+    using MvvmCross.Forms.Presenters.Attributes;
+    using MvvmCross.Forms.Views;
+    using Xamarin.Forms;
+    using Xamarin.Forms.Xaml;
+    using BorobudurReliefStories.Core.ViewModels.Stories;
+
     [XamlCompilation(XamlCompilationOptions.Compile)]
     [MvxContentPagePresentation(WrapInNavigationPage = true)]
-    public partial class HomePage : MvxContentPage<HomeViewModel>
+    public partial class StoriesPage : MvxContentPage<StoriesViewModel>
     {
-        public HomePage()
+        public StoriesPage()
         {
             InitializeComponent();
         }

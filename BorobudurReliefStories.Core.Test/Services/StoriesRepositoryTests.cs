@@ -12,7 +12,7 @@ namespace BorobudurReliefStories.Core.Test.Services
         [Fact]
         public void LoadRepository()
         {
-            var stories = new StoriesRepository().Load();
+            var stories = new StoriesRepository().GetStories();
 
             stories.Should().HaveCount(2);
             stories.ElementAt(1).Should().BeEquivalentTo(new Story

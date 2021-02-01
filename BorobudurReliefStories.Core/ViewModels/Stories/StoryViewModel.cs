@@ -1,13 +1,14 @@
 namespace BorobudurReliefStories.Core.ViewModels.Stories
 {
+    using BorobudurReliefStories.Core.Models;
     using MvvmCross.ViewModels;
 
     public class StoryViewModel : MvxViewModel
     {
-        public string Title { get; set; }
+        public LocalizedString Name { get; set; }
 
         public string Author { get; set; }
 
-        public string Description { get; set; }
+        public LocalizedString Description { get; set; }
     }
 }

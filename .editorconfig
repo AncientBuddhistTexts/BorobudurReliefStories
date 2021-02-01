@@ -28,6 +28,10 @@ indent_style = tab
 [*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
 indent_size = 2
 
+# XAML
+[*.xaml]
+indent_size = 2
+
 # XML Configuration Files
 [*.{json,yml,config,props,targets,nuspec,resx,ruleset}]
 indent_size = 2

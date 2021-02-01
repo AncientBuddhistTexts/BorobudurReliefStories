@@ -1,8 +1,9 @@
 namespace BorobudurReliefStories.Core
 {
     using MvvmCross.ViewModels;
-    using BorobudurReliefStories.Core.ViewModels.Home;
     using MvvmCross.IoC;
+    using MvvmCross;
+    using BorobudurReliefStories.Core.ViewModels.Stories;
 
     public class App : MvxApplication
     {
@@ -10,12 +11,14 @@ namespace BorobudurReliefStories.Core
         {
             base.Initialize();
 
-            CreatableTypes()
-              .EndingWith("Repository")
-              .AsInterfaces()
-            .RegisterAsLazySingleton();
+            Mvx.IoCProvider.RegisterSingleton(AutoMapperFactory.CreateMapper());
 
-            RegisterAppStart<HomeViewModel>();
+            CreatableTypes()
+                .EndingWith("Repository")
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
+
+            RegisterAppStart<StoriesViewModel>();
         }
     }
 }
