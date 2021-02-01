@@ -1,8 +1,8 @@
-namespace BorobudurReliefStories.Core.Test.Services
+namespace BorobudurReliefStories.Core.Test.ValueConverters
 {
     using System.Globalization;
     using BorobudurReliefStories.Core.Models;
-    using BorobudurReliefStories.UI.ValueConverters;
+    using BorobudurReliefStories.Core.ValueConverters;
     using FluentAssertions;
     using Xunit;
 

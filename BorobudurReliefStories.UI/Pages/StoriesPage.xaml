@@ -5,7 +5,6 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Stories;assembly=BorobudurReliefStories.Core"
   xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-  xmlns:local="clr-namespace:BorobudurReliefStories.UI"
   xmlns:vc="clr-namespace:BorobudurReliefStories.UI.ValueConverters"
   NavigationPage.HasNavigationBar="False"
   x:TypeArguments="viewModels:StoriesViewModel"
