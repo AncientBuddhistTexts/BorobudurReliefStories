@@ -2,14 +2,16 @@ namespace BorobudurReliefStories.Droid.Views
 {
     using System.Threading.Tasks;
     using Android.App;
+    using Android.Content.PM;
     using Android.OS;
     using MvvmCross.Forms.Platforms.Android.Views;
 
     [Activity(
-       NoHistory = true,
-       MainLauncher = true,
-       Label = "@string/app_name",
-       Theme = "@style/AppTheme.Splash")]
+        NoHistory = true,
+        MainLauncher = true,
+        Label = "@string/app_name",
+        Theme = "@style/AppTheme.Splash",
+        ScreenOrientation = ScreenOrientation.SensorLandscape)]
     public class SplashActivity : MvxFormsSplashScreenActivity<Setup, Core.App, UI.App>
     {
         protected override Task RunAppStartAsync(Bundle bundle)

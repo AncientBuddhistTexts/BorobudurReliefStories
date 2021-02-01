@@ -10,7 +10,7 @@ namespace BorobudurReliefStories.Core.Test.Services
     public class StoriesRepositoryTests
     {
         [Fact]
-        public void LoadRepository()
+        public void GetStories()
         {
             var stories = new StoriesRepository().GetStories();
 

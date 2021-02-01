@@ -1,37 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<views:MvxContentPage
+<v:MvxContentPage
   x:Class="BorobudurReliefStories.UI.Pages.StoriesPage"
   xmlns="http://xamarin.com/schemas/2014/forms"
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Stories;assembly=BorobudurReliefStories.Core"
-  xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-  xmlns:vc="clr-namespace:BorobudurReliefStories.UI.ValueConverters"
+  xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+  xmlns:views="clr-namespace:BorobudurReliefStories.UI.Views"
   NavigationPage.HasNavigationBar="False"
   x:TypeArguments="viewModels:StoriesViewModel"
 >
-  <views:MvxContentPage.Resources>
-    <ResourceDictionary>
-      <vc:LocalizedStringValueConverter x:Key="lStr2Str" />
-    </ResourceDictionary>
-  </views:MvxContentPage.Resources>
-
-  <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-    <ListView ItemsSource="{Binding Stories}" Grid.Row="1">
-      <ListView.ItemTemplate>
+  <ScrollView>
+    <StackLayout BindableLayout.ItemsSource="{Binding Stories}" Orientation="Vertical">
+      <BindableLayout.ItemTemplate>
         <DataTemplate>
-          <ViewCell>
-            <StackLayout>
-              <Label Text="{Binding Name, Converter={StaticResource lStr2Str}}"/>
-              <Label Text="{Binding Description, Converter={StaticResource lStr2Str}}"/>
-              <Label Text="{Binding Author}"/>
-            </StackLayout>
-          </ViewCell>
+          <views:StoryContentView BindingContext="{Binding}" />
         </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
-  </Grid>
-</views:MvxContentPage>    
+      </BindableLayout.ItemTemplate>
+    </StackLayout>
+  </ScrollView>
+</v:MvxContentPage>    

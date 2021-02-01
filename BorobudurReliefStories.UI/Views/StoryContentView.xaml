@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<v:MvxContentView
+  xmlns="http://xamarin.com/schemas/2014/forms" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+  xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Stories;assembly=BorobudurReliefStories.Core"
+  xmlns:vc="clr-namespace:BorobudurReliefStories.UI.ValueConverters"
+  xmlns:extensions="clr-namespace:BorobudurReliefStories.UI.Extensions"
+  x:Class="BorobudurReliefStories.UI.Views.StoryContentView"
+  x:TypeArguments="viewModels:StoryViewModel"
+>
+  <v:MvxContentView.Resources>
+    <ResourceDictionary>
+      <vc:LocalizedStringValueConverter x:Key="lStr2Str" />
+    </ResourceDictionary>
+  </v:MvxContentView.Resources>
+
+  <ContentView.Content>
+    <Frame
+      BorderColor="Gray"
+      Padding="10"
+    >
+      <StackLayout 
+        Orientation="Horizontal"
+      >
+        <ImageButton
+          WidthRequest="61"
+          HeightRequest="64"
+          Padding="10"
+          Source="{extensions:ImageResource Resources.images.chevron-left.png}"
+          HorizontalOptions="Center"
+          VerticalOptions="Center"
+        />
+        <StackLayout>
+          <Label
+            FontSize="Large"
+            FontAttributes="Bold"
+            Text="{Binding Name, Converter={StaticResource lStr2Str}}"
+          />
+          <Label
+            Text="{Binding Author}"
+          />
+          <Label
+            FontSize="Medium"
+            Text="{Binding Description, Converter={StaticResource lStr2Str}}"
+          />
+        </StackLayout>
+      </StackLayout>
+    </Frame>
+  </ContentView.Content>
+</v:MvxContentView>
