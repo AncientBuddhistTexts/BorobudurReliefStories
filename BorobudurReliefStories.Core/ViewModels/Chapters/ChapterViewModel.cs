@@ -3,6 +3,7 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
     using System.Threading.Tasks;
     using System.Windows.Input;
     using BorobudurReliefStories.Core.Models;
+    using BorobudurReliefStories.Core.Services;
     using BorobudurReliefStories.Core.ViewModels.Slides;
     using MvvmCross.Commands;
     using MvvmCross.Navigation;
@@ -11,6 +12,7 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
     public class ChapterViewModel : MvxViewModel
     {
         private readonly IMvxNavigationService _navigationService;
+        private readonly IStoriesRepository _storiesRepository;
 
         public string Id { get; set; }
 
@@ -20,9 +22,10 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
 
         public ICommand SelectChapterCommand => new MvxCommand(async () => await SelectChapterAsync());
 
-        public ChapterViewModel(IMvxNavigationService navigationService)
+        public ChapterViewModel(IMvxNavigationService navigationService, IStoriesRepository storiesRepository)
         {
             _navigationService = navigationService;
+            _storiesRepository = storiesRepository;
         }
 
         public async Task ClosePageAsync()
@@ -32,7 +35,8 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
 
         private async Task SelectChapterAsync()
         {
-            await _navigationService.Navigate<SlidesViewModel, (string StoryId, string InitialChapterId)>((StoryId, Id));
+            var initialSlideIndex = _storiesRepository.GetInitialSlideIndex(StoryId, Id);
+            await _navigationService.Navigate<SlidesViewModel, (string StoryId, int InitialSlideIndex)>((StoryId, initialSlideIndex));
         }
     }
 }

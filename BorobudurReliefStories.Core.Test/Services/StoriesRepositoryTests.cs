@@ -10,7 +10,7 @@ namespace BorobudurReliefStories.Core.Test.Services
     public class StoriesRepositoryTests
     {
         [Fact]
-        public void GetStories()
+        public void TestGetStories()
         {
             var stories = new StoriesRepository().GetStories();
 
@@ -56,6 +56,20 @@ namespace BorobudurReliefStories.Core.Test.Services
                     },
                 },
             });
+        }
+
+        [Theory]
+        [InlineData("1", 123)]
+        [InlineData("2", 95)]
+        [InlineData("4", 51)]
+        [InlineData("5", 24)]
+        public void TestGetInitialSlideIndex(string chapterId, int initialSlideIndex)
+        {
+            var sr = new StoriesRepository();
+
+            var isi = sr.GetInitialSlideIndex("lvista", chapterId);
+
+            isi.Should().Be(initialSlideIndex);
         }
     }
 }

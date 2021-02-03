@@ -9,7 +9,7 @@
   NavigationPage.HasNavigationBar="False"
   x:TypeArguments="viewModels:SlidesViewModel"
 >
-  <CarouselView ItemsSource="{Binding Slides}">
+  <CarouselView ItemsSource="{Binding Slides}" Position="{Binding InitialSlideIndex}" IsScrollAnimated="False">
     <CarouselView.ItemTemplate>
       <DataTemplate>
         <views:SlideContentView BindingContext="{Binding}" />

@@ -10,5 +10,7 @@ namespace BorobudurReliefStories.Core.Services
         public IEnumerable<Chapter> GetChapters(string storyId);
 
         public IEnumerable<Slide> GetSlides(string storyId, string chapterId);
+
+        public int GetInitialSlideIndex(string storyId, string chapterId);
     }
 }

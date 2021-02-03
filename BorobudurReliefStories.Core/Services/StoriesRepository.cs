@@ -31,6 +31,15 @@ namespace BorobudurReliefStories.Core.Services
                 .SelectMany(s => s.Slides);
         }
 
+        public int GetInitialSlideIndex(string storyId, string chapterId)
+        {
+            var chapters = GetChapters(storyId).Reverse().TakeWhile(c => c.Id != chapterId);
+            return chapters.SelectMany(c => c.Slides).Count()
+                + chapters.Count()
+                + GetSlides(storyId, chapterId).Count()
+                - 1;
+        }
+
         private void LoadStories()
         {
             if (_stories.Any())

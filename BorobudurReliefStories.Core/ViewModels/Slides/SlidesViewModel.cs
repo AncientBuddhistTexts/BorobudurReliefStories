@@ -11,13 +11,14 @@ namespace BorobudurReliefStories.Core.ViewModels.Slides
     using MvvmCross.Navigation;
     using MvvmCross.ViewModels;
 
-    public class SlidesViewModel : MvxViewModel<(string StoryId, string InitialChapterId)>
+    public class SlidesViewModel : MvxViewModel<(string StoryId, int InitialSlideIndex)>
     {
         private readonly IMapper _mapper;
         private readonly IMvxNavigationService _navigationService;
         private readonly IStoriesRepository _storiesRepository;
         private string _storyId;
-        private string _initialChapterId;
+
+        public int InitialSlideIndex { get; set; }
 
         public ObservableCollection<SlideViewModel> Slides { get; } = new ObservableCollection<SlideViewModel>();
 
@@ -28,9 +29,10 @@ namespace BorobudurReliefStories.Core.ViewModels.Slides
             _storiesRepository = storiesRepository;
         }
 
-        public override void Prepare((string StoryId, string InitialChapterId) parameter)
+        public override void Prepare((string StoryId, int InitialSlideIndex) parameter)
         {
-            (_storyId, _initialChapterId) = parameter;
+            (_storyId, InitialSlideIndex) = parameter;
+
             Slides.Clear();
 
             _ = _storiesRepository
@@ -38,9 +40,13 @@ namespace BorobudurReliefStories.Core.ViewModels.Slides
                 .SelectMany(c => CreateSlidesForChapter(_storyId, c))
                 .Reverse()
                 .Select(_mapper.Map<SlideViewModel>)
-                .Aggregate(Slides, (acc, e) => { acc.Add(e); return acc; });
-
-            _ = _initialChapterId;
+                .Aggregate(
+                    Slides,
+                    (acc, e) =>
+                    {
+                        acc.Add(e);
+                        return acc;
+                    });
         }
 
         public async Task ClosePageAsync()
