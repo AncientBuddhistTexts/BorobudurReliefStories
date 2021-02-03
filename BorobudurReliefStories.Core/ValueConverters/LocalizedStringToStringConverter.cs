@@ -11,12 +11,7 @@ namespace BorobudurReliefStories.Core.ValueConverters
         [SuppressMessage("Microsoft.Design", "CA1062:Validate arguments of public methods", Scope = "Method", MessageId = "0", Justification = "Passing null is supported.")]
         protected override string Convert(LocalizedString value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (culture.TwoLetterISOLanguageName.Equals("id", StringComparison.OrdinalIgnoreCase))
-            {
-                return value.Id;
-            }
-
-            return value.En;
+            return culture.TwoLetterISOLanguageName.Equals("id", StringComparison.OrdinalIgnoreCase) ? value.Id : value.En;
         }
     }
 }

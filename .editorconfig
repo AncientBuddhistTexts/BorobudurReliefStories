@@ -57,6 +57,24 @@ insert_final_newline    = true
 # https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference#language-conventions
 
 [*.{cs,csx,cake}]
+#
+# By default all analyzer issues are errors
+#
+dotnet_diagnostic.severity = error
+dotnet_analyzer_diagnostic.severity = error
+
+#
+# Code Quality
+#
+
+# CA1014: Mark assemblies with CLSCompliant
+dotnet_diagnostic.CA1801.severity = none
+
+dotnet_diagnostic.IDE0058.severity = none
+
+# CA2007: Do not directly await a Task: Not applicable on .NET Core
+dotnet_diagnostic.CA2007.severity = none
+
 # "This." and "Me." qualifiers
 # https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference#this_and_me
 dotnet_style_qualification_for_field                                = false : warning

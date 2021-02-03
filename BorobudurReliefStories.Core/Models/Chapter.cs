@@ -8,6 +8,6 @@ namespace BorobudurReliefStories.Core.Models
 
         public LocalizedString Name { get; set; }
 
-        public IEnumerable<Photo> Photos { get; set; }
+        public IEnumerable<Slide> Slides { get; set; }
     }
 }

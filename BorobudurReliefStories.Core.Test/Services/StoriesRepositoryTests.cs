@@ -18,7 +18,8 @@ namespace BorobudurReliefStories.Core.Test.Services
             stories.ElementAt(1).Should().BeEquivalentTo(new Story
             {
                 Id = "series2",
-                Name = new LocalizedString{
+                Name = new LocalizedString
+                {
                     En = "s2 - english",
                     Id = "s2 - bhasa",
                 },
@@ -36,8 +37,8 @@ namespace BorobudurReliefStories.Core.Test.Services
                             En = "c1 - en",
                             Id = "c1 - id",
                         },
-                        Photos = new[] {
-                            new Photo
+                        Slides = new[] {
+                            new Slide
                             {
                                 Name = new LocalizedString
                                 {
@@ -45,6 +46,11 @@ namespace BorobudurReliefStories.Core.Test.Services
                                     Id = "p1 - id",
                                 },
                                 Url = new Uri("/pic1.jpg", UriKind.Relative),
+                                Caption = new LocalizedString
+                                {
+                                    En = "p1 - cap - en",
+                                    Id = "p1 - cap - id",
+                                },
                             }
                         },
                     },

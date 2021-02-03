@@ -1,4 +1,4 @@
-namespace BorobudurReliefStories.UI.ValueConverters
+namespace BorobudurReliefStories.UI.Converters
 {
     using MvvmCross.Forms.Converters;
 

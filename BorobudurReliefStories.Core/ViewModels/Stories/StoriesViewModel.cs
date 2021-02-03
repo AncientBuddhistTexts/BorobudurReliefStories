@@ -13,6 +13,7 @@ namespace BorobudurReliefStories.Core.ViewModels.Stories
 
         public ObservableCollection<StoryViewModel> Stories { get; } = new ObservableCollection<StoryViewModel>();
 
+
         public StoriesViewModel(IMapper mapper, IStoriesRepository storiesRepository)
         {
             _mapper = mapper;

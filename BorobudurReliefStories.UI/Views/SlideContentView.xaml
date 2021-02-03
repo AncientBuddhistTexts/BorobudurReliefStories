@@ -3,12 +3,12 @@
   xmlns="http://xamarin.com/schemas/2014/forms" 
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-  xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Stories;assembly=BorobudurReliefStories.Core"
+  xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Slides;assembly=BorobudurReliefStories.Core"
   xmlns:c="clr-namespace:BorobudurReliefStories.UI.Converters"
   xmlns:b="clr-namespace:BorobudurReliefStories.UI.Behaviors"
   xmlns:e="clr-namespace:BorobudurReliefStories.UI.Extensions"
-  x:Class="BorobudurReliefStories.UI.Views.StoryContentView"
-  x:TypeArguments="viewModels:StoryViewModel"
+  x:Class="BorobudurReliefStories.UI.Views.SlideContentView"
+  x:TypeArguments="viewModels:SlideViewModel"
 >
   <v:MvxContentView.Resources>
     <ResourceDictionary>
@@ -33,23 +33,14 @@
           VerticalOptions="Center"
         >
           <ImageButton.Behaviors>
-            <b:EventToCommandBehavior EventName="Clicked" Command="{Binding SelectStoryCommand}" />
+            <b:EventToCommandBehavior EventName="Clicked" Command="{Binding SelectChapterCommand}" />
           </ImageButton.Behaviors>
         </ImageButton>
-        <StackLayout>
-          <Label
-            FontSize="Large"
-            FontAttributes="Bold"
-            Text="{Binding Name, Converter={StaticResource lStr2Str}}"
-          />
-          <Label
-            Text="{Binding Author}"
-          />
-          <Label
-            FontSize="Medium"
-            Text="{Binding Description, Converter={StaticResource lStr2Str}}"
-          />
-        </StackLayout>
+        <Label
+          VerticalOptions="Center"
+          FontSize="Large"
+          Text="{Binding Name, Converter={StaticResource lStr2Str}}"
+        />
       </StackLayout>
     </Frame>
   </ContentView.Content>

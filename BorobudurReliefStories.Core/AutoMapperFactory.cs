@@ -1,5 +1,6 @@
 namespace BorobudurReliefStories.Core
 {
+    using System;
     using AutoMapper;
     using BorobudurReliefStories.Core.Models;
     using BorobudurReliefStories.Core.ViewModels.Chapters;
@@ -7,12 +8,13 @@ namespace BorobudurReliefStories.Core
 
     public static class AutoMapperFactory
     {
-        public static IMapper CreateMapper()
+        public static IMapper CreateMapper(Func<Type, object> resolver)
         {
             var mapperConfiguration = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Story, StoryViewModel>();
-                cfg.CreateMap<Chapter, ChapterViewModel>();
+                cfg.ConstructServicesUsing(resolver);
+                cfg.CreateMap<Story, StoryViewModel>().ConstructUsingServiceLocator();
+                cfg.CreateMap<Chapter, ChapterViewModel>().ConstructUsingServiceLocator();
             });
 
             return mapperConfiguration.CreateMapper();

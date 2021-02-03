@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="MvvmCross" Version="7.1.2" />
     <PackageReference Include="MvvmCross.Forms" Version="7.1.2" />
+    <PackageReference Include="MvvmCross.Plugin.MethodBinding" Version="7.1.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
   </ItemGroup>
 
@@ -22,11 +23,23 @@
     <Compile Update="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Pages\SlidesPage.xaml.cs">
+      <DependentUpon>SlidesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\ChaptersPage.xaml.cs">
+      <DependentUpon>ChaptersPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Pages\StoriesPage.xaml.cs">
       <DependentUpon>StoriesPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Resources\Colors.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SlideContentView.xaml.cs">
+      <DependentUpon>SlideContentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ChapterContentView.xaml.cs">
+      <DependentUpon>ChapterContentView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
