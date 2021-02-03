@@ -9,13 +9,11 @@
   NavigationPage.HasNavigationBar="False"
   x:TypeArguments="viewModels:SlidesViewModel"
 >
-  <ScrollView>
-    <StackLayout BindableLayout.ItemsSource="{Binding Slides}" Orientation="Vertical">
-      <BindableLayout.ItemTemplate>
-        <DataTemplate>
-          <views:SlideContentView BindingContext="{Binding}" />
-        </DataTemplate>
-      </BindableLayout.ItemTemplate>
-    </StackLayout>
-  </ScrollView>
+  <CarouselView ItemsSource="{Binding Slides}">
+    <CarouselView.ItemTemplate>
+      <DataTemplate>
+        <views:SlideContentView BindingContext="{Binding}" />
+      </DataTemplate>
+    </CarouselView.ItemTemplate>
+  </CarouselView>
 </v:MvxContentPage>    

@@ -1,15 +1,19 @@
 namespace BorobudurReliefStories.Core.ViewModels.Slides
 {
     using System;
+    using BorobudurReliefStories.Core.Models;
     using MvvmCross.ViewModels;
 
     public class SlideViewModel : MvxViewModel
     {
-        public Uri Image { get; set; }
+        public bool IsAChapterHeader => Url == null;
 
-        public string Title { get; set; }
+        public bool IsASlide => !IsAChapterHeader;
 
-        public string Description { get; set; }
+        public Uri Url { get; set; }
 
+        public LocalizedString Name { get; set; }
+
+        public LocalizedString Caption { get; set; }
     }
 }

@@ -3,8 +3,6 @@ namespace BorobudurReliefStories.Core
     using System;
     using AutoMapper;
     using BorobudurReliefStories.Core.Models;
-    using BorobudurReliefStories.Core.ViewModels.Chapters;
-    using BorobudurReliefStories.Core.ViewModels.Stories;
 
     public static class AutoMapperFactory
     {
@@ -13,8 +11,9 @@ namespace BorobudurReliefStories.Core
             var mapperConfiguration = new MapperConfiguration(cfg =>
             {
                 cfg.ConstructServicesUsing(resolver);
-                cfg.CreateMap<Story, StoryViewModel>().ConstructUsingServiceLocator();
-                cfg.CreateMap<Chapter, ChapterViewModel>().ConstructUsingServiceLocator();
+                cfg.CreateMap<Story, ViewModels.Stories.StoryViewModel>().ConstructUsingServiceLocator();
+                cfg.CreateMap<Chapter, ViewModels.Chapters.ChapterViewModel>().ConstructUsingServiceLocator();
+                cfg.CreateMap<Slide, ViewModels.Slides.SlideViewModel>().ConstructUsingServiceLocator();
             });
 
             return mapperConfiguration.CreateMapper();

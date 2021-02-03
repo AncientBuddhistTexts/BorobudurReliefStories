@@ -8,12 +8,13 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
     using MvvmCross.Navigation;
     using MvvmCross.ViewModels;
 
-    public class ChapterViewModel : MvxViewModel<string>
+    public class ChapterViewModel : MvxViewModel
     {
         private readonly IMvxNavigationService _navigationService;
-        private string _chapterId;
 
         public string Id { get; set; }
+
+        public string StoryId { get; set; }
 
         public LocalizedString Name { get; set; }
 
@@ -24,11 +25,6 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
             _navigationService = navigationService;
         }
 
-        public override void Prepare(string parameter)
-        {
-            _chapterId = parameter;
-        }
-
         public async Task ClosePageAsync()
         {
             await _navigationService.Close(this);
@@ -36,7 +32,7 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
 
         private async Task SelectChapterAsync()
         {
-            await _navigationService.Navigate<SlidesViewModel, (string StoryId, string InitialChapterId)>((Id, _chapterId));
+            await _navigationService.Navigate<SlidesViewModel, (string StoryId, string InitialChapterId)>((StoryId, Id));
         }
     }
 }

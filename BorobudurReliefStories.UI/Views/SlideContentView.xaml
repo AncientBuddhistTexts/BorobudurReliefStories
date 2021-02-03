@@ -5,8 +5,6 @@
   xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
   xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Slides;assembly=BorobudurReliefStories.Core"
   xmlns:c="clr-namespace:BorobudurReliefStories.UI.Converters"
-  xmlns:b="clr-namespace:BorobudurReliefStories.UI.Behaviors"
-  xmlns:e="clr-namespace:BorobudurReliefStories.UI.Extensions"
   x:Class="BorobudurReliefStories.UI.Views.SlideContentView"
   x:TypeArguments="viewModels:SlideViewModel"
 >
@@ -17,31 +15,48 @@
   </v:MvxContentView.Resources>
 
   <ContentView.Content>
-    <Frame
-      BorderColor="Gray"
-      Padding="10"
-    >
-      <StackLayout 
-        Orientation="Horizontal"
+    <StackLayout>
+      <Label
+        IsVisible="{Binding IsAChapterHeader}"
+        Grid.Row="1"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"
+        FontAttributes="Bold"
+        Text="{Binding Name, Converter={StaticResource lStr2Str}}"
+      />
+      <Grid 
+        IsVisible="{Binding IsASlide}"
+        Margin="1"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand"
       >
-        <ImageButton
-          WidthRequest="61"
-          HeightRequest="64"
-          Padding="10"
-          Source="{e:ImageResource Resources.images.chevron-left.png}"
-          HorizontalOptions="Center"
-          VerticalOptions="Center"
-        >
-          <ImageButton.Behaviors>
-            <b:EventToCommandBehavior EventName="Clicked" Command="{Binding SelectChapterCommand}" />
-          </ImageButton.Behaviors>
-        </ImageButton>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Image
+          BackgroundColor="Gray"
+          Grid.Row="0"
+          Aspect="AspectFit"
+          Source="https://loremflickr.com/1004/312" 
+        />
         <Label
-          VerticalOptions="Center"
-          FontSize="Large"
+          Grid.Row="1"
+          HorizontalOptions="Center"
+          FontAttributes="Bold"
           Text="{Binding Name, Converter={StaticResource lStr2Str}}"
         />
-      </StackLayout>
-    </Frame>
+        <Label
+          Grid.Row="2"
+          VerticalOptions="Start"
+          VerticalTextAlignment="Start"
+          Text="{Binding Caption, Converter={StaticResource lStr2Str}}"
+        />
+      </Grid>
+    </StackLayout>
   </ContentView.Content>
 </v:MvxContentView>

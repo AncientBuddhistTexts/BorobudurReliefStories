@@ -29,7 +29,7 @@ namespace BorobudurReliefStories.Core.ViewModels.Stories
             _ = _storiesRepository
                 .GetStories()
                 .Where(s => s.Enabled)
-                .Select(s => _mapper.Map<StoryViewModel>(s))
+                .Select(_mapper.Map<StoryViewModel>)
                 .Aggregate(Stories, (acc, e) => { acc.Add(e); return acc; });
         }
     }

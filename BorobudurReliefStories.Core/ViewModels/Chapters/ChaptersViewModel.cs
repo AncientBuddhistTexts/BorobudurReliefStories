@@ -29,8 +29,15 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
 
             _ = _storiesRepository
                 .GetChapters(parameter)
-                .Select(s => _mapper.Map<ChapterViewModel>(s))
-                .Aggregate(Chapters, (acc, e) => { acc.Add(e); return acc; });
+                .Select(_mapper.Map<ChapterViewModel>)
+                .Aggregate(
+                    Chapters,
+                    (acc, e) =>
+                    {
+                        e.StoryId = parameter;
+                        acc.Add(e);
+                        return acc;
+                    });
         }
 
         public async Task ClosePageAsync()
