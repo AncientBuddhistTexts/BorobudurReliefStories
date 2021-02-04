@@ -1,4 +1,4 @@
-namespace BorobudurReliefStories.Core.ValueConverters
+namespace BorobudurReliefStories.Core.Converters
 {
     using System;
     using System.Diagnostics.CodeAnalysis;

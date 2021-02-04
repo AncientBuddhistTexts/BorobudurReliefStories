@@ -11,6 +11,7 @@
   <v:MvxContentView.Resources>
     <ResourceDictionary>
       <c:LocalizedStringValueConverter x:Key="lStr2Str" />
+      <c:StringToImageSourceConverter x:Key="str2imgsrc" />
     </ResourceDictionary>
   </v:MvxContentView.Resources>
 
@@ -42,7 +43,7 @@
           BackgroundColor="Gray"
           Grid.Row="0"
           Aspect="AspectFit"
-          Source="https://loremflickr.com/1004/312" 
+          Source="{Binding Path, Converter={StaticResource str2imgsrc}, ConverterParameter='Resources.slidepics'}"
         />
         <Label
           Grid.Row="1"

@@ -1,10 +1,8 @@
 namespace BorobudurReliefStories.Core.Models
 {
-    using System;
-
     public class Slide
     {
-        public Uri Url { get; set; }
+        public string Path { get; set; }
 
         public LocalizedString Name { get; set; }
 

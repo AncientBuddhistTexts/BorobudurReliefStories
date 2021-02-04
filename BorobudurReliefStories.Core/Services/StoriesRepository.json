@@ -20,7 +20,7 @@
         },
         "slides": [
           {
-            "url": "./images/001 Bodhisattva in Tusita Heaven amongst the Gods.jpg",
+            "path": "001 Bodhisattva in Tusita Heaven amongst the Gods.jpg",
             "name": {
               "en": "1 Bodhisattva in Tuṣita Heaven amongst the gods ",
               "id": "1 Bodhisattwa di Surga Tuṣita di antara para dewa "
@@ -31,7 +31,7 @@
             }
           },
           {
-            "url": "./images/002 Bodhisattvas Announcement that he will be Reborn on Earth.jpg",
+            "path": "002 Bodhisattvas Announcement that he will be Reborn on Earth.jpg",
             "name": {
               "en": "2 Bodhisattva’s announcement that he will be reborn on Earth",
               "id": "2 Pengumuman Bodhisattwa bahwa Ia akan lahir lagi di Bumi "
@@ -42,7 +42,7 @@
             }
           },
           {
-            "url": "./images/003 The Gods take the form of Brahmins on Earth.jpg",
+            "path": "003 The Gods take the form of Brahmins on Earth.jpg",
             "name": {
               "en": "3 The gods take the form of brahmins on Earth",
               "id": "3 Para dewa beralih wujud sebagai brahmana di Bumi"
@@ -53,7 +53,7 @@
             }
           },
           {
-            "url": "./images/004 Pratyeka Buddhas leave Earth now that the Bodhisattva will be Born.jpg",
+            "path": "004 Pratyeka Buddhas leave Earth now that the Bodhisattva will be Born.jpg",
             "name": {
               "en": "4 Pratyekabuddhas leave Earth now that the Bodhisattva will be born",
               "id": "4 Para Pratyekabuddha meninggalkan Bumi karena Bodhisattwa akan lahir"
@@ -64,7 +64,7 @@
             }
           },
           {
-            "url": "./images/005 Bodhisattvas Guidance to the Gods.jpg",
+            "path": "005 Bodhisattvas Guidance to the Gods.jpg",
             "name": {
               "en": "5 Bodhisattva’s guidance to the gods",
               "id": "5 Panduan Bodhisattwa kepada para dewa"
@@ -75,7 +75,7 @@
             }
           },
           {
-            "url": "./images/006 Passing the Crown to Maitreya.jpg",
+            "path": "006 Passing the Crown to Maitreya.jpg",
             "name": {
               "en": "6 Passing the crown to Maitreya",
               "id": "6 Menyerahkan mahkota kepada Maitreya"
@@ -86,7 +86,7 @@
             }
           },
           {
-            "url": "./images/007 Choosing the Incarnation.jpg",
+            "path": "007 Choosing the Incarnation.jpg",
             "name": {
               "en": "7 Choosing the incarnation",
               "id": "7 Memilih wujud lahir"
@@ -97,7 +97,7 @@
             }
           },
           {
-            "url": "./images/008 King Suddhodana and Queen Maya.jpg",
+            "path": "008 King Suddhodana and Queen Maya.jpg",
             "name": {
               "en": "8 King Śuddhodana and Queen Māyā",
               "id": "8 Raja Śuddhodana dan Ratu Māyā"
@@ -108,7 +108,7 @@
             }
           },
           {
-            "url": "./images/009 Goddesses visit Queen Maya who has vowed Celibacy.jpg",
+            "path": "009 Goddesses visit Queen Maya who has vowed Celibacy.jpg",
             "name": {
               "en": "9 Goddesses visit Queen Māyā who has vowed celibacy",
               "id": "9 Para dewi mengunjungi Ratu Māyā yang telah berikrar hidup suci"
@@ -119,7 +119,7 @@
             }
           },
           {
-            "url": "./images/010 The Gods discuss who should accompany the Bodhisattva.jpg",
+            "path": "010 The Gods discuss who should accompany the Bodhisattva.jpg",
             "name": {
               "en": "10 The gods discuss who should accompany the Bodhisattva",
               "id": "10 Para dewa membahas siapa yang akan menyertai Bodhisattwa"
@@ -130,7 +130,7 @@
             }
           },
           {
-            "url": "./images/011 The Gods venerate the Bodhisattva.jpg",
+            "path": "011 The Gods venerate the Bodhisattva.jpg",
             "name": {
               "en": "11 The gods venerate the Bodhisattva",
               "id": "11 Para dewa mengagungkan Bodhisattwa"
@@ -141,7 +141,7 @@
             }
           },
           {
-            "url": "./images/012 The Bodhisattva descends to Earth accompanied by the Gods.jpg",
+            "path": "012 The Bodhisattva descends to Earth accompanied by the Gods.jpg",
             "name": {
               "en": "12 The Bodhisattva descends to Earth accompanied by the gods ",
               "id": "12 Bodhisattwa turun ke Bumi diiringi para dewa "
@@ -152,7 +152,7 @@
             }
           },
           {
-            "url": "./images/013 The Bodhisattva enters Queen Maya's Womb.jpg",
+            "path": "013 The Bodhisattva enters Queen Maya's Womb.jpg",
             "name": {
               "en": "13 The Bodhisattva enters Queen Māyā’s womb ",
               "id": "13 Bodhisattwa memasuki rahim Ratu Māyā "
@@ -163,7 +163,7 @@
             }
           },
           {
-            "url": "./images/014 The Bodhisattva inside Queen Mayas Womb.jpg",
+            "path": "014 The Bodhisattva inside Queen Mayas Womb.jpg",
             "name": {
               "en": "14 The Bodhisattva inside Queen Māyā’s womb ",
               "id": "14 Bodhisattwa dalam rahim Ratu Māyā "
@@ -174,7 +174,7 @@
             }
           },
           {
-            "url": "./images/015 The Queen wishes to meet King Suddhodana in the Asoka Park.jpg",
+            "path": "015 The Queen wishes to meet King Suddhodana in the Asoka Park.jpg",
             "name": {
               "en": "15 The Queen wishes to meet King Śuddhodana in the Aśoka Park ",
               "id": "15 Ratu ingin bertemu Raja Śuddhodana di Taman Aśoka "
@@ -185,7 +185,7 @@
             }
           },
           {
-            "url": "./images/016 The King goes to meet the Queen.jpg",
+            "path": "016 The King goes to meet the Queen.jpg",
             "name": {
               "en": "16 The King goes to meet the Queen ",
               "id": "16 Raja pergi menemui Ratu "
@@ -196,7 +196,7 @@
             }
           },
           {
-            "url": "./images/017 The Queen tells her Dream to the Brahmins.jpg",
+            "path": "017 The Queen tells her Dream to the Brahmins.jpg",
             "name": {
               "en": "17 The Queen tells her dream to the brahmins ",
               "id": "17 Ratu menceritakan mimpinya kepada para brahmana "
@@ -207,7 +207,7 @@
             }
           },
           {
-            "url": "./images/018 The Brahmins interpret the Queens Dream.jpg",
+            "path": "018 The Brahmins interpret the Queens Dream.jpg",
             "name": {
               "en": "18 The brahmins interpret the Queen’s dream ",
               "id": "18 Para brahmana menafsirkan mimpi Ratu "
@@ -218,7 +218,7 @@
             }
           },
           {
-            "url": "./images/019 The Brahmins receive Gifts.jpg",
+            "path": "019 The Brahmins receive Gifts.jpg",
             "name": {
               "en": "19 The brahmins receive gifts ",
               "id": "19 Para brahmana menerima hadiah "
@@ -229,7 +229,7 @@
             }
           },
           {
-            "url": "./images/020 The Gods preparing for Queen Maya.jpg",
+            "path": "020 The Gods preparing for Queen Maya.jpg",
             "name": {
               "en": "20 The gods preparing for Queen Māyā ",
               "id": "20 Para dewa membuat persiapan untuk Ratu Māyā "
@@ -240,7 +240,7 @@
             }
           },
           {
-            "url": "./images/021 Queen Maya in more than one Palace.jpg",
+            "path": "021 Queen Maya in more than one Palace.jpg",
             "name": {
               "en": "21 Queen Māyā in more than one palace ",
               "id": "21 Ratu Māyā di lebih dari satu istana "
@@ -251,7 +251,7 @@
             }
           },
           {
-            "url": "./images/022 Queen Maya heals the Sick.jpg",
+            "path": "022 Queen Maya heals the Sick.jpg",
             "name": {
               "en": "22 Queen Māyā heals the sick ",
               "id": "22 Ratu Māyā menyembuhkan yang sakit "
@@ -262,7 +262,7 @@
             }
           },
           {
-            "url": "./images/023 The Sakyans give Gifts to the Poor.jpg",
+            "path": "023 The Sakyans give Gifts to the Poor.jpg",
             "name": {
               "en": "23 The Śākyans give gifts to the poor ",
               "id": "23 Suku Śākya memberi derma kepada yang miskin "
@@ -273,7 +273,7 @@
             }
           },
           {
-            "url": "./images/024 King Suddhodana visits Queen Maya.jpg",
+            "path": "024 King Suddhodana visits Queen Maya.jpg",
             "name": {
               "en": "24 King Śuddhodana visits Queen Māyā ",
               "id": "24 Raja Śuddhodana mengunjungi Ratu Māyā "
@@ -284,7 +284,7 @@
             }
           },
           {
-            "url": "./images/025 The Portents before the Bodhisattvas Birth.jpg",
+            "path": "025 The Portents before the Bodhisattvas Birth.jpg",
             "name": {
               "en": "25 The portents before the Bodhisattva’s birth ",
               "id": "25 Pertanda sebelum kelahiran Bodhisattwa "
@@ -295,7 +295,7 @@
             }
           },
           {
-            "url": "./images/026 Queen Mayas Time Draws Near.jpg",
+            "path": "026 Queen Mayas Time Draws Near.jpg",
             "name": {
               "en": "26 Queen Māyā’s time draws near ",
               "id": "26 Masa Ratu Māyā melahirkan sudah dekat "
@@ -306,7 +306,7 @@
             }
           },
           {
-            "url": "./images/027 Queen Maya traveling to Lumbini.jpg",
+            "path": "027 Queen Maya traveling to Lumbini.jpg",
             "name": {
               "en": "27 Queen Māyā traveling to Lumbini ",
               "id": "27 Ratu Māyā pergi ke Lumbini "
@@ -326,7 +326,7 @@
         },
         "slides": [
           {
-            "url": "./images/028 Queen Maya gives Birth.jpg",
+            "path": "028 Queen Maya gives Birth.jpg",
             "name": {
               "en": "28 Queen Māyā gives birth ",
               "id": "28 Ratu Māyā melahirkan "
@@ -337,7 +337,7 @@
             }
           },
           {
-            "url": "./images/029 The King holds a Festival to celebrate the Birth.jpg",
+            "path": "029 The King holds a Festival to celebrate the Birth.jpg",
             "name": {
               "en": "29 The King holds a festival to celebrate the birth ",
               "id": "29 Raja mengadakan perayaan untuk merayakan kelahiran "
@@ -348,7 +348,7 @@
             }
           },
           {
-            "url": "./images/030 The Bodhisatta is given to Gautami.jpg",
+            "path": "030 The Bodhisatta is given to Gautami.jpg",
             "name": {
               "en": "30 The Bodhisatta is given to Gautamī ",
               "id": "30 Bodhisattwa diberikan kepada Gautamī "
@@ -359,7 +359,7 @@
             }
           },
           {
-            "url": "./images/031 Asita predicts the Bodhisattva will become Buddha.jpg",
+            "path": "031 Asita predicts the Bodhisattva will become Buddha.jpg",
             "name": {
               "en": "31 Asita predicts the Bodhisattva will become Buddha ",
               "id": "31 Asita meramal Bodhisattwa akan menjadi Buddha "
@@ -370,7 +370,7 @@
             }
           },
           {
-            "url": "./images/032 The Gods worship Sarvarthasiddha.jpg",
+            "path": "032 The Gods worship Sarvarthasiddha.jpg",
             "name": {
               "en": "32 The gods revere Sarvārthasiddha ",
               "id": "32 Para dewa menghormat Sarvārthasiddha "
@@ -381,7 +381,7 @@
             }
           },
           {
-            "url": "./images/033 The King is requested to take Sarvarthasiddha to the Temple.jpg",
+            "path": "033 The King is requested to take Sarvarthasiddha to the Temple.jpg",
             "name": {
               "en": "33 The King is requested to take Sarvārthasiddha to the temple ",
               "id": "33 Raja diminta membawa Sarvārthasiddha ke kuil "
@@ -392,7 +392,7 @@
             }
           },
           {
-            "url": "./images/034 The Procession to the Temple.jpg",
+            "path": "034 The Procession to the Temple.jpg",
             "name": {
               "en": "34 The procession to the temple ",
               "id": "34 Arak-arakan menuju kuil "
@@ -403,7 +403,7 @@
             }
           },
           {
-            "url": "./images/035 The Statues worship Sarvarthasiddha.jpg",
+            "path": "035 The Statues worship Sarvarthasiddha.jpg",
             "name": {
               "en": "35 The statues worship Sarvārthasiddha ",
               "id": "35 Arca-arca bersujud kepada Sarvārthasiddha "
@@ -414,7 +414,7 @@
             }
           },
           {
-            "url": "./images/036 Aristocrats present Jewelery to Sarvarthasiddha.jpg",
+            "path": "036 Aristocrats present Jewelery to Sarvarthasiddha.jpg",
             "name": {
               "en": "36 Aristocrats present jewelry to Sarvārthasiddha ",
               "id": "36 Para bangsawan mempersembahkan perhiasan kepada Sarvārthasiddha "
@@ -425,7 +425,7 @@
             }
           },
           {
-            "url": "./images/037 Sarvarthasiddha goes to School.jpg",
+            "path": "037 Sarvarthasiddha goes to School.jpg",
             "name": {
               "en": "37 Sarvārthasiddha goes to school ",
               "id": "37 Sarvārthasiddha pergi ke sekolah "
@@ -436,7 +436,7 @@
             }
           },
           {
-            "url": "./images/038 Sarvarthasiddha studying in the Classroom.jpg",
+            "path": "038 Sarvarthasiddha studying in the Classroom.jpg",
             "name": {
               "en": "38 Sarvārthasiddha studying in the classroom ",
               "id": "38 Sarvārthasiddha belajar di ruang kelas "
@@ -447,7 +447,7 @@
             }
           },
           {
-            "url": "./images/039 Sarvarthasiddha in the Villages.jpg",
+            "path": "039 Sarvarthasiddha in the Villages.jpg",
             "name": {
               "en": "39 Sarvārthasiddha in the villages ",
               "id": "39 Sarvārthasiddha di perdesaan "
@@ -458,7 +458,7 @@
             }
           },
           {
-            "url": "./images/040 Sarvarthasiddha meditating under a Guava Tree.jpg",
+            "path": "040 Sarvarthasiddha meditating under a Guava Tree.jpg",
             "name": {
               "en": "40 Sarvārthasiddha meditating under a rose-apple tree ",
               "id": "40 Sarvārthasiddha bersemadi di bawah pohon jambu air "
@@ -469,7 +469,7 @@
             }
           },
           {
-            "url": "./images/041 The Family decide to request Sarvarthasiddha to Marry.jpg",
+            "path": "041 The Family decide to request Sarvarthasiddha to Marry.jpg",
             "name": {
               "en": "41 The Family decide to request Sarvārthasiddha to marry ",
               "id": "41 Keluarga memutuskan memohon Sarvārthasiddha untuk menikah "
@@ -480,7 +480,7 @@
             }
           },
           {
-            "url": "./images/042 Presenting a Ring to Gopa.jpg",
+            "path": "042 Presenting a Ring to Gopa.jpg",
             "name": {
               "en": "42 Presenting a ring to Gopā ",
               "id": "42 Memberikan cincin kepada Gopā "
@@ -491,7 +491,7 @@
             }
           },
           {
-            "url": "./images/043 Sarvarthasiddha consenting to a Contest.jpg",
+            "path": "043 Sarvarthasiddha consenting to a Contest.jpg",
             "name": {
               "en": "43 Sarvārthasiddha consenting to a contest ",
               "id": "43 Sarvārthasiddha menyetujui sayembara "
@@ -502,7 +502,7 @@
             }
           },
           {
-            "url": "./images/044 Devadatta beats an Elephant to Death.jpg",
+            "path": "044 Devadatta beats an Elephant to Death.jpg",
             "name": {
               "en": "44 Devadatta beats an elephant to death ",
               "id": "44 Devadatta menghantam gajah sampai mati "
@@ -513,7 +513,7 @@
             }
           },
           {
-            "url": "./images/045 Sundarananda removes the Elephant.jpg",
+            "path": "045 Sundarananda removes the Elephant.jpg",
             "name": {
               "en": "45 Sundarananda removes the elephant ",
               "id": "45 Sundarananda menyingkirkan gajah "
@@ -524,7 +524,7 @@
             }
           },
           {
-            "url": "./images/046 Sarvarthasiddha excels at Mathematics.jpg",
+            "path": "046 Sarvarthasiddha excels at Mathematics.jpg",
             "name": {
               "en": "46 Sarvārthasiddha excels at mathematics ",
               "id": "46 Sarvārthasiddha unggul dalam matematika "
@@ -535,7 +535,7 @@
             }
           },
           {
-            "url": "./images/047 Sarvarthasiddha wins a Competition.jpg",
+            "path": "047 Sarvarthasiddha wins a Competition.jpg",
             "name": {
               "en": "47 Sarvārthasiddha wins a competition ",
               "id": "47 Sarvārthasiddha memenangi satu pertandingan "
@@ -546,7 +546,7 @@
             }
           },
           {
-            "url": "./images/048 Sarvarthasiddha wins another Competition.jpg",
+            "path": "048 Sarvarthasiddha wins another Competition.jpg",
             "name": {
               "en": "48 Sarvārthasiddha wins another competition ",
               "id": "48 Sarvārthasiddha memenangi pertandingan lainnya "
@@ -557,7 +557,7 @@
             }
           },
           {
-            "url": "./images/049 Sarvarthasiddha wins an Archery Competition.jpg",
+            "path": "049 Sarvarthasiddha wins an Archery Competition.jpg",
             "name": {
               "en": "49 Sarvārthasiddha wins an archery competition ",
               "id": "49 Sarvārthasiddha memenangi pertandingan memanah "
@@ -568,7 +568,7 @@
             }
           },
           {
-            "url": "./images/050 Dandapani gives his Daughter to the King for the Prince.jpg",
+            "path": "050 Dandapani gives his Daughter to the King for the Prince.jpg",
             "name": {
               "en": "50 Daṇḍapāṇī gives his daughter to the King for the Prince ",
               "id": "50 Daṇḍapāṇī memberikan putrinya kepada Raja untuk Pangeran "
@@ -579,7 +579,7 @@
             }
           },
           {
-            "url": "./images/051 Sarvarthasiddha and Gopa in the Palace.jpg",
+            "path": "051 Sarvarthasiddha and Gopa in the Palace.jpg",
             "name": {
               "en": "51 Sarvārthasiddha and Gopā in the palace ",
               "id": "51 Sarvārthasiddha dan Gopā dalam istana "
@@ -590,7 +590,7 @@
             }
           },
           {
-            "url": "./images/052 The Gods visit the Bodhisattva.jpg",
+            "path": "052 The Gods visit the Bodhisattva.jpg",
             "name": {
               "en": "52 The Gods visit the Bodhisattva ",
               "id": "52 Para dewa mengunjungi Bodhisattwa "
@@ -610,7 +610,7 @@
         },
         "slides": [
           {
-            "url": "./images/053 The Gods remind Sarvarthasiddha of his Duties.jpg",
+            "path": "053 The Gods remind Sarvarthasiddha of his Duties.jpg",
             "name": {
               "en": "53 The gods remind Sarvārthasiddha of his duties ",
               "id": "53 Para dewa mengingatkan Sarvārthasiddha akan tugas-Nya"
@@ -621,7 +621,7 @@
             }
           },
           {
-            "url": "./images/054 Sarvarthasiddha is presented with Three Palaces.jpg",
+            "path": "054 Sarvarthasiddha is presented with Three Palaces.jpg",
             "name": {
               "en": "54 Sarvārthasiddha is presented with three palaces ",
               "id": "54 Sarvārthasiddha dianugerahi tiga istana"
@@ -632,7 +632,7 @@
             }
           },
           {
-            "url": "./images/055 The City is prepared for Sarvarthasiddhas trip outside the Palace.jpg",
+            "path": "055 The City is prepared for Sarvarthasiddhas trip outside the Palace.jpg",
             "name": {
               "en": "55 The city is prepared for Sarvārthasiddha’s trip outside the palace ",
               "id": "55 Kota disiapkan untuk perjalanan Sarvārthasiddha ke luar istana"
@@ -643,7 +643,7 @@
             }
           },
           {
-            "url": "./images/056 Sarvarthasiddha sees an Old Man.jpg",
+            "path": "056 Sarvarthasiddha sees an Old Man.jpg",
             "name": {
               "en": "56 Sarvārthasiddha sees an old man ",
               "id": "56 Sarvārthasiddha melihat orang tua"
@@ -654,7 +654,7 @@
             }
           },
           {
-            "url": "./images/057 Sarvarthasiddha encounters a Sick Man.jpg",
+            "path": "057 Sarvarthasiddha encounters a Sick Man.jpg",
             "name": {
               "en": "57 Sarvārthasiddha encounters a sick man ",
               "id": "57 Sarvārthasiddha bertemu orang sakit"
@@ -665,7 +665,7 @@
             }
           },
           {
-            "url": "./images/058 Sarvarthasiddha sees Someone who has Died.jpg",
+            "path": "058 Sarvarthasiddha sees Someone who has Died.jpg",
             "name": {
               "en": "58 Sarvārthasiddha sees someone who has died ",
               "id": "58 Sarvārthasiddha melihat orang mati"
@@ -676,7 +676,7 @@
             }
           },
           {
-            "url": "./images/059 Sarvarthasiddha meets a Monk.jpg",
+            "path": "059 Sarvarthasiddha meets a Monk.jpg",
             "name": {
               "en": "59 Sarvārthasiddha meets an ascetic ",
               "id": "59 Sarvārthasiddha bertemu petapa"
@@ -687,7 +687,7 @@
             }
           },
           {
-            "url": "./images/060 Gopa tells her Nightmare to Sarvarthasiddha.jpg",
+            "path": "060 Gopa tells her Nightmare to Sarvarthasiddha.jpg",
             "name": {
               "en": "60 Gopā tells her nightmare to Sarvārthasiddha ",
               "id": "60 Gopā menceritakan mimpi buruknya kepada Sarvārthasiddha"
@@ -698,7 +698,7 @@
             }
           },
           {
-            "url": "./images/061 King Suddhodana gives permission for Sarvarthasiddha to leave the Palace.jpg",
+            "path": "061 King Suddhodana gives permission for Sarvarthasiddha to leave the Palace.jpg",
             "name": {
               "en": "61 King Śuddhodana gives permission for Sarvārthasiddha to leave the palace ",
               "id": "61 Raja Śuddhodana memberi izin kepada Sarvārthasiddha untuk meninggalkan istana"
@@ -709,7 +709,7 @@
             }
           },
           {
-            "url": "./images/062 Gautami brings beautiful women for the Prince.jpg",
+            "path": "062 Gautami brings beautiful women for the Prince.jpg",
             "name": {
               "en": "62 Gautamī brings beautiful women for the Prince ",
               "id": "62 Gautamī membawa perempuan cantik untuk Pangeran"
@@ -720,7 +720,7 @@
             }
           },
           {
-            "url": "./images/063 Sarvarthasiddha is appalled by the attitudes of the Sleeping Women.jpg",
+            "path": "063 Sarvarthasiddha is appalled by the attitudes of the Sleeping Women.jpg",
             "name": {
               "en": "63 Sarvārthasiddha is appalled by the attitudes of the sleeping women ",
               "id": "63 Sarvārthasiddha tersentak oleh sikap para perempuan yang tertidur"
@@ -731,7 +731,7 @@
             }
           },
           {
-            "url": "./images/064 Sarvarthasiddha leaves the Palace.jpg",
+            "path": "064 Sarvarthasiddha leaves the Palace.jpg",
             "name": {
               "en": "64 Sarvārthasiddha leaves the palace ",
               "id": "64 Sarvārthasiddha meninggalkan istana"
@@ -742,7 +742,7 @@
             }
           },
           {
-            "url": "./images/065 Sarvarthasiddha begins his long Journey into Exile on the horse Kanthaka.jpg",
+            "path": "065 Sarvarthasiddha begins his long Journey into Exile on the horse Kanthaka.jpg",
             "name": {
               "en": "65 Sarvārthasiddha begins his long Journey into exile on the horse Kaṇṭhaka ",
               "id": "65 Sarvārthasiddha memulai perjalanan panjang-Nya ke penyunyian menunggang kuda Kaṇṭhaka"
@@ -753,7 +753,7 @@
             }
           },
           {
-            "url": "./images/066 The Gods are dismissed by Sarvarthsiddha.jpg",
+            "path": "066 The Gods are dismissed by Sarvarthsiddha.jpg",
             "name": {
               "en": "66 The gods are dismissed by Sarvārthsiddha ",
               "id": "66 Para dewa diminta pergi oleh Sarvārthasiddha"
@@ -764,7 +764,7 @@
             }
           },
           {
-            "url": "./images/067 Sarvarthasiddha cuts off his Hair.jpg",
+            "path": "067 Sarvarthasiddha cuts off his Hair.jpg",
             "name": {
               "en": "67 Sarvārthasiddha cuts off his hair ",
               "id": "67 Sarvārthasiddha memotong rambut-Nya"
@@ -775,7 +775,7 @@
             }
           },
           {
-            "url": "./images/068 Sarvarthasiddha changes his Clothes.jpg",
+            "path": "068 Sarvarthasiddha changes his Clothes.jpg",
             "name": {
               "en": "68 Sarvārthasiddha changes his clothes ",
               "id": "68 Sarvārthasiddha mengganti pakaian-Nya"
@@ -786,7 +786,7 @@
             }
           },
           {
-            "url": "./images/069 The Gods revere the Bodhisattva.jpg",
+            "path": "069 The Gods revere the Bodhisattva.jpg",
             "name": {
               "en": "69 The gods revere the Bodhisattva ",
               "id": "69 Para dewa memberi hormat kepada Bodhisattwa"
@@ -806,7 +806,7 @@
         },
         "slides": [
           {
-            "url": "./images/070 The Bodhisattva roams and comes to Padmas Hermitage.jpg",
+            "path": "070 The Bodhisattva roams and comes to Padmas Hermitage.jpg",
             "name": {
               "en": "70 The Bodhisattva roams and comes to Padmā’s hermitage ",
               "id": "70 Bodhisattwa berkelana dan tiba di pertapaan Padmā"
@@ -817,7 +817,7 @@
             }
           },
           {
-            "url": "./images/071 The Bodhisattva meets with Arada Kalama.jpg",
+            "path": "071 The Bodhisattva meets with Arada Kalama.jpg",
             "name": {
               "en": "71 The Bodhisattva meets with Ārāḍa Kālāma ",
               "id": "71 Bodhisattwa bertemu dengan Ārāḍa Kālāma"
@@ -828,7 +828,7 @@
             }
           },
           {
-            "url": "./images/072 Arada Kalama offers the Bodhisattva Joint Leadership.jpg",
+            "path": "072 Arada Kalama offers the Bodhisattva Joint Leadership.jpg",
             "name": {
               "en": "72 Ārāḍa Kālāma offers the Bodhisattva joint leadership ",
               "id": "72 Ārāḍa Kālāma menawari Bodhisattwa untuk memimpin bersama"
@@ -839,7 +839,7 @@
             }
           },
           {
-            "url": "./images/073 King Bimbisara offers alms to the Bodhisattva.jpg",
+            "path": "073 King Bimbisara offers alms to the Bodhisattva.jpg",
             "name": {
               "en": "73 King Bimbisāra offers alms to the Bodhisattva ",
               "id": "73 Raja Bimbisāra mempersembahkan derma kepada Bodhisattwa"
@@ -850,7 +850,7 @@
             }
           },
           {
-            "url": "./images/074 King Bimbisara venerates the Bodhisattva.jpg",
+            "path": "074 King Bimbisara venerates the Bodhisattva.jpg",
             "name": {
               "en": "74 King Bimbisāra venerates the Bodhisattva ",
               "id": "74 Raja Bimbisāra memberi hormat kepada Bodhisattwa"
@@ -861,7 +861,7 @@
             }
           },
           {
-            "url": "./images/075 The Bodhisattva meets with Rudraka Ramaputra.jpg",
+            "path": "075 The Bodhisattva meets with Rudraka Ramaputra.jpg",
             "name": {
               "en": "75 The Bodhisattva meets with Rudraka Rāmaputra ",
               "id": "75 Bodhisattwa bertemu dengan Rudraka Rāmaputra"
@@ -872,7 +872,7 @@
             }
           },
           {
-            "url": "./images/076 The Bodhisattva begins Meditation in Caves with the Group of Five.jpg",
+            "path": "076 The Bodhisattva begins Meditation in Caves with the Group of Five.jpg",
             "name": {
               "en": "76 The Bodhisattva begins meditation in caves with the Group of Five ",
               "id": "76 Bodhisattwa mulai meditasi dalam gua dengan Kelompok Lima Petapa"
@@ -883,7 +883,7 @@
             }
           },
           {
-            "url": "./images/077 The Bodhisattva during his Life of Austerity.jpg",
+            "path": "077 The Bodhisattva during his Life of Austerity.jpg",
             "name": {
               "en": "77 The Bodhisattva during his life of austerity ",
               "id": "77 Bodhisattwa selama kehidupan tapa keras-Nya"
@@ -894,7 +894,7 @@
             }
           },
           {
-            "url": "./images/078 The Bodhisattvas Mother tries to persuade him to give up his Austerities.jpg",
+            "path": "078 The Bodhisattvas Mother tries to persuade him to give up his Austerities.jpg",
             "name": {
               "en": "78 The Bodhisattva’s mother tries to persuade him to give up his austerities ",
               "id": "78 Ibu Bodhisattwa berusaha membujuk-Nya untuk menghentikan tapa keras-Nya"
@@ -905,7 +905,7 @@
             }
           },
           {
-            "url": "./images/079 Mara tries to persuade the Bodhisattva to stop Striving.jpg",
+            "path": "079 Mara tries to persuade the Bodhisattva to stop Striving.jpg",
             "name": {
               "en": "79 Māra tries to persuade the Bodhisattva to stop striving ",
               "id": "79 Māra berusaha membujuk Bodhisattwa untuk berhenti berjuang"
@@ -916,7 +916,7 @@
             }
           },
           {
-            "url": "./images/080 The Gods offer to give Nourishment to the Bodhisattva.jpg",
+            "path": "080 The Gods offer to give Nourishment to the Bodhisattva.jpg",
             "name": {
               "en": "80 The gods offer to give nourishment to the Bodhisattva ",
               "id": "80 Para dewa menawarkan menyalurkan gizi kepada Bodhisattwa"
@@ -927,7 +927,7 @@
             }
           },
           {
-            "url": "./images/081 The Daughters of the Village Head offer Food to the Bodhisattva.jpg",
+            "path": "081 The Daughters of the Village Head offer Food to the Bodhisattva.jpg",
             "name": {
               "en": "81 The daughters of the village head offer food to the Bodhisattva ",
               "id": "81 Putri kepala desa mendermakan makanan kepada Bodhisattwa"
@@ -938,7 +938,7 @@
             }
           },
           {
-            "url": "./images/082 The Bodhisattva washes Radhas Shroud.jpg",
+            "path": "082 The Bodhisattva washes Radhas Shroud.jpg",
             "name": {
               "en": "82 The Bodhisattva washes Rādhā’s shroud ",
               "id": "82 Bodhisattwa mencuci kain rombeng Rādhā"
@@ -949,7 +949,7 @@
             }
           },
           {
-            "url": "./images/083 The Gods offer Clean Clothes to the Bodhisattva.jpg",
+            "path": "083 The Gods offer Clean Clothes to the Bodhisattva.jpg",
             "name": {
               "en": "83 The gods offer clean clothes to the Bodhisattva ",
               "id": "83 Para dewa mempersembahkan jubah bersih kepada Bodhisattwa"
@@ -960,7 +960,7 @@
             }
           },
           {
-            "url": "./images/084 Sujata presents food to the Bodhisattva in her Home.jpg",
+            "path": "084 Sujata presents food to the Bodhisattva in her Home.jpg",
             "name": {
               "en": "84 Sujātā presents food to the Bodhisattva in her home ",
               "id": "84 Sujātā mendermakan makanan kepada Bodhisattwa di rumahnya"
@@ -971,7 +971,7 @@
             }
           },
           {
-            "url": "./images/085 The Bodhisattva takes the bowl and goes to the River to Bathe.jpg",
+            "path": "085 The Bodhisattva takes the bowl and goes to the River to Bathe.jpg",
             "name": {
               "en": "85 The Bodhisattva takes the bowl and goes to the river to bathe ",
               "id": "85 Bodhisattwa membawa mangkuk dan pergi ke sungai untuk mandi"
@@ -982,7 +982,7 @@
             }
           },
           {
-            "url": "./images/086 The Gods assist the Bodhisattva as he bathes and then collect the Relics.jpg",
+            "path": "086 The Gods assist the Bodhisattva as he bathes and then collect the Relics.jpg",
             "name": {
               "en": "86 The gods assist the Bodhisattva as he bathes, and then collect the relics ",
               "id": "86 Para dewa membantu Bodhisattwa ketika Ia mandi, dan kemudian mengumpulkan relik-Nya"
@@ -993,7 +993,7 @@
             }
           },
           {
-            "url": "./images/087 A Nagi offers the Bodhisattva a Throne.jpg",
+            "path": "087 A Nagi offers the Bodhisattva a Throne.jpg",
             "name": {
               "en": "87 A Nāginī offers the Bodhisattva a throne ",
               "id": "87 Nāginī mempersembahkan singgasana kepada Bodhisattwa"
@@ -1004,7 +1004,7 @@
             }
           },
           {
-            "url": "./images/088 The Bodhisattva eats the remainder of his Food.jpg",
+            "path": "088 The Bodhisattva eats the remainder of his Food.jpg",
             "name": {
               "en": "88 The Bodhisattva eats the remainder of his food ",
               "id": "88 Bodhisattwa menyantap sisa makanan-Nya"
@@ -1015,7 +1015,7 @@
             }
           },
           {
-            "url": "./images/089 The Bodhisattva disposes of the Bowl.jpg",
+            "path": "089 The Bodhisattva disposes of the Bowl.jpg",
             "name": {
               "en": "89 The Bodhisattva disposes of the bowl ",
               "id": "89 Bodhisattwa melempar mangkuk"
@@ -1026,7 +1026,7 @@
             }
           },
           {
-            "url": "./images/090 Svastika gives Grass to the Bodhisattva.jpg",
+            "path": "090 Svastika gives Grass to the Bodhisattva.jpg",
             "name": {
               "en": "90 Svastika gives grass to the Bodhisattva ",
               "id": "90 Svastika memberi rumput kepada Bodhisattwa"
@@ -1037,7 +1037,7 @@
             }
           },
           {
-            "url": "./images/091 The Gods worship the Bodhisattva.jpg",
+            "path": "091 The Gods worship the Bodhisattva.jpg",
             "name": {
               "en": "91 The gods worship the Bodhisattva ",
               "id": "91 Para dewa menghormat Bodhisattwa"
@@ -1048,7 +1048,7 @@
             }
           },
           {
-            "url": "./images/092 The Gods decorate Bodhi Trees hoping the Bodhisattva will sit there.jpg",
+            "path": "092 The Gods decorate Bodhi Trees hoping the Bodhisattva will sit there.jpg",
             "name": {
               "en": "92 The gods decorate Bodhi trees hoping the Bodhisattva will sit there ",
               "id": "92 Para dewa menghias pohon-pohon Bodhi berharap Bodhisattwa akan duduk di sana"
@@ -1059,7 +1059,7 @@
             }
           },
           {
-            "url": "./images/093 Bodhisattvas pay homage to our Bodhisattva.jpg",
+            "path": "093 Bodhisattvas pay homage to our Bodhisattva.jpg",
             "name": {
               "en": "93 Bodhisattvas pay homage to our Bodhisattva ",
               "id": "93 Para Bodhisattwa memberi hormat kepada Bodhisattwa kita"
@@ -1070,7 +1070,7 @@
             }
           },
           {
-            "url": "./images/094 Mara and his Army attack the Bodhisattva who calls the Earth to Witness.jpg",
+            "path": "094 Mara and his Army attack the Bodhisattva who calls the Earth to Witness.jpg",
             "name": {
               "en": "94 Māra and his army attack the Bodhisattva who calls the Earth to witness ",
               "id": "94 Māra dan pasukannya menyerang Bodhisattwa yang memanggil Bumi sebagai saksi"
@@ -1081,7 +1081,7 @@
             }
           },
           {
-            "url": "./images/095 Mara sends his Daughters to entice the Bodhisattva.jpg",
+            "path": "095 Mara sends his Daughters to entice the Bodhisattva.jpg",
             "name": {
               "en": "95 Māra sends his daughters to entice the Bodhisattva ",
               "id": "95 Māra mengutus putri-putrinya untuk menggoda Bodhisattwa"
@@ -1101,7 +1101,7 @@
         },
         "slides": [
           {
-            "url": "./images/096 The Bodhisattva attains Awakening and becomes the Buddha.jpg",
+            "path": "096 The Bodhisattva attains Awakening and becomes the Buddha.jpg",
             "name": {
               "en": "96 The Bodhisattva attains Awakening and becomes the Buddha ",
               "id": "96 Bodhisattwa mencapai Kecerahan dan menjadi Buddha"
@@ -1112,7 +1112,7 @@
             }
           },
           {
-            "url": "./images/097 Umbrellas.jpg",
+            "path": "097 Umbrellas.jpg",
             "name": {
               "en": "97 Other Buddhas send umbrellas to shade Gautama Buddha ",
               "id": "97 Buddha-Buddha lain mengirim payung untuk menaungi Buddha Gautama"
@@ -1123,7 +1123,7 @@
             }
           },
           {
-            "url": "./images/098 The Gods bathe the Buddha (end of first week).jpg",
+            "path": "098 The Gods bathe the Buddha (end of first week).jpg",
             "name": {
               "en": "98 The gods bathe the Buddha (end of first week) ",
               "id": "98 Para dewa memandikan Buddha (akhir minggu pertama) "
@@ -1134,7 +1134,7 @@
             }
           },
           {
-            "url": "./images/099 The Buddha showing the Fearless Sign (third week).jpg",
+            "path": "099 The Buddha showing the Fearless Sign (third week).jpg",
             "name": {
               "en": "99 The Buddha showing the fearless sign (third week) ",
               "id": "99 Buddha menunjukkan mudra tak gentar (minggu ketiga) "
@@ -1145,7 +1145,7 @@
             }
           },
           {
-            "url": "./images/100 The Buddha traversing from Ocean to Ocean (fourth week).jpg",
+            "path": "100 The Buddha traversing from Ocean to Ocean (fourth week).jpg",
             "name": {
               "en": "100 The Buddha traversing from ocean to ocean (fourth week) ",
               "id": "100 Buddha bepergian dari samudra ke samudra (minggu keempat) "
@@ -1156,7 +1156,7 @@
             }
           },
           {
-            "url": "./images/101 The Buddha meets Mucilinda (fifth week).jpg",
+            "path": "101 The Buddha meets Mucilinda (fifth week).jpg",
             "name": {
               "en": "101 The Buddha meets Mucilinda (fifth week) ",
               "id": "101 Buddha bertemu Mucilinda (minggu kelima) "
@@ -1167,7 +1167,7 @@
             }
           },
           {
-            "url": "./images/102 The Buddha meets Ascetics in the Vicinity (sixth week).jpg",
+            "path": "102 The Buddha meets Ascetics in the Vicinity (sixth week).jpg",
             "name": {
               "en": "102 The Buddha meets ascetics in the vicinity (sixth week) ",
               "id": "102 Buddha bertemu para petapa di sekitar situ (minggu keenam) "
@@ -1178,7 +1178,7 @@
             }
           },
           {
-            "url": "./images/103 The Buddha meets Trapusa and Bhallika (seventh week).jpg",
+            "path": "103 The Buddha meets Trapusa and Bhallika (seventh week).jpg",
             "name": {
               "en": "103 The Buddha meets Trapuṣa and Bhallika (seventh week) ",
               "id": "103 Buddha bertemu Trapuṣa dan Bhallika (minggu ketujuh) "
@@ -1189,7 +1189,7 @@
             }
           },
           {
-            "url": "./images/104 The Four Great Kings offer the Buddha four Bowls.jpg",
+            "path": "104 The Four Great Kings offer the Buddha four Bowls.jpg",
             "name": {
               "en": "104 The Four Great Kings offer the Buddha four bowls ",
               "id": "104 Empat Maharaja Dewa mempersembahkan empat mangkuk kepada Buddha "
@@ -1200,7 +1200,7 @@
             }
           },
           {
-            "url": "./images/105 The Buddha accepts the refined Curds in the Vessel called Candra.jpg",
+            "path": "105 The Buddha accepts the refined Curds in the Vessel called Candra.jpg",
             "name": {
               "en": "105 The Buddha accepts the refined curds in the vessel called Candra ",
               "id": "105 Buddha menerima dadih murni dalam wadah yang disebut Candra "
@@ -1211,7 +1211,7 @@
             }
           },
           {
-            "url": "./images/106 Sikhi Mahabrahma requests the Buddha to Teach.jpg",
+            "path": "106 Sikhi Mahabrahma requests the Buddha to Teach.jpg",
             "name": {
               "en": "106 Śikhī Mahābrahmā requests the Buddha to teach ",
               "id": "106 Mahābrahmā Śikhī meminta Buddha untuk mengajar "
@@ -1222,7 +1222,7 @@
             }
           },
           {
-            "url": "./images/107 Sakra Lord of the Gods requests the Buddha to Teach.jpg",
+            "path": "107 Sakra Lord of the Gods requests the Buddha to Teach.jpg",
             "name": {
               "en": "107 Śakra, lord of the gods, requests the Buddha to teach ",
               "id": "107 Śakra, raja dewa, memohon kepada Buddha untuk mengajar "
@@ -1233,7 +1233,7 @@
             }
           },
           {
-            "url": "./images/108 The Buddha agrees to Teach for the Benefit of Gods and Men.jpg",
+            "path": "108 The Buddha agrees to Teach for the Benefit of Gods and Men.jpg",
             "name": {
               "en": "108 The Buddha agrees to teach for the benefit of gods and men ",
               "id": "108 Buddha setuju mengajar demi kebaikan para dewa dan manusia "
@@ -1244,7 +1244,7 @@
             }
           },
           {
-            "url": "./images/109 Beginning the Journey to Rsipatana.jpg",
+            "path": "109 Beginning the Journey to Rsipatana.jpg",
             "name": {
               "en": "109 Beginning the Journey to Ṛṣipatana ",
               "id": "109 Memulai perjalanan ke Ṛṣipatana "
@@ -1255,7 +1255,7 @@
             }
           },
           {
-            "url": "./images/110 The Meeting with the Ajivaka Upaga.jpg",
+            "path": "110 The Meeting with the Ajivaka Upaga.jpg",
             "name": {
               "en": "110 The Meeting with the Ājīvaka Upaga ",
               "id": "110 Pertemuan dengan Ājīvaka Upaga "
@@ -1266,7 +1266,7 @@
             }
           },
           {
-            "url": "./images/111 Naga Sudarsana at Aparagaya.jpg",
+            "path": "111 Naga Sudarsana at Aparagaya.jpg",
             "name": {
               "en": "111 Nāga Sudarśana at Aparagayā ",
               "id": "111 Nāga Sudarśana di Aparagayā "
@@ -1277,7 +1277,7 @@
             }
           },
           {
-            "url": "./images/112 Being Entertained at Rohitavastu.jpg",
+            "path": "112 Being Entertained at Rohitavastu.jpg",
             "name": {
               "en": "112 Being Entertained at Rohitavastu ",
               "id": "112 Dijamu di Rohitavastu "
@@ -1288,7 +1288,7 @@
             }
           },
           {
-            "url": "./images/113 Being Entertained at Urubilvakalpa.jpg",
+            "path": "113 Being Entertained at Urubilvakalpa.jpg",
             "name": {
               "en": "113 Being Entertained at Urubilvakalpa ",
               "id": "113 Dijamu di Urubilvakalpa "
@@ -1299,7 +1299,7 @@
             }
           },
           {
-            "url": "./images/114 Being Entertained at Sarathipura.jpg",
+            "path": "114 Being Entertained at Sarathipura.jpg",
             "name": {
               "en": "114 Being Entertained at Sārathipura ",
               "id": "114 Dijamu di Sārathipura "
@@ -1310,7 +1310,7 @@
             }
           },
           {
-            "url": "./images/115 The Buddha crosses the Ganges.jpg",
+            "path": "115 The Buddha crosses the Ganges.jpg",
             "name": {
               "en": "115 The Buddha crosses the Ganges by flying through the air ",
               "id": "115 Buddha menyeberang Sungai Gangga dengan terbang ke angkasa "
@@ -1321,7 +1321,7 @@
             }
           },
           {
-            "url": "./images/116 The Buddha is offered Alms in Varanasi.jpg",
+            "path": "116 The Buddha is offered Alms in Varanasi.jpg",
             "name": {
               "en": "116 The Buddha is offered alms in Vārānaṣī ",
               "id": "116 Buddha diberi derma di Vārānaṣī "
@@ -1332,7 +1332,7 @@
             }
           },
           {
-            "url": "./images/117 The Buddha meets the Auspicious Group of Five.jpg",
+            "path": "117 The Buddha meets the Auspicious Group of Five.jpg",
             "name": {
               "en": "117 The Buddha meets the Auspicious Group of Five ",
               "id": "117 Buddha bertemu Kelompok Lima Petapa Bajik "
@@ -1343,7 +1343,7 @@
             }
           },
           {
-            "url": "./images/118 The Group of Five become Bhiksus.jpg",
+            "path": "118 The Group of Five become Bhiksus.jpg",
             "name": {
               "en": "118 The Group of Five become Bhikṣus ",
               "id": "118 Kelompok Lima Petapa menjadi biksu "
@@ -1354,7 +1354,7 @@
             }
           },
           {
-            "url": "./images/119 The Buddha is washed with scented water by the monks.jpg",
+            "path": "119 The Buddha is washed with scented water by the monks.jpg",
             "name": {
               "en": "119 The Buddha is washed with scented water by the monks ",
               "id": "119 Buddha dibasuh dengan air wangi oleh para biksu "
@@ -1365,7 +1365,7 @@
             }
           },
           {
-            "url": "./images/120 The Buddha turns the Wheel of the Dharma.jpg",
+            "path": "120 The Buddha turns the Wheel of the Dharma.jpg",
             "name": {
               "en": "120 The Buddha turns the Wheel of the Dharma ",
               "id": "120 Buddha memutar Roda Dharma "
@@ -1399,7 +1399,7 @@
         },
         "slides": [
           {
-            "url": "/pic1.jpg",
+            "path": "/pic1.jpg",
             "name": {
               "en": "p1 - en",
               "id": "p1 - id"

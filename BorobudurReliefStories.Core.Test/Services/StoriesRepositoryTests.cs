@@ -1,6 +1,5 @@
 namespace BorobudurReliefStories.Core.Test.Services
 {
-    using System;
     using System.Linq;
     using BorobudurReliefStories.Core.Models;
     using BorobudurReliefStories.Core.Services;
@@ -45,7 +44,7 @@ namespace BorobudurReliefStories.Core.Test.Services
                                     En = "p1 - en",
                                     Id = "p1 - id",
                                 },
-                                Url = new Uri("/pic1.jpg", UriKind.Relative),
+                                Path = "/pic1.jpg",
                                 Caption = new LocalizedString
                                 {
                                     En = "p1 - cap - en",
