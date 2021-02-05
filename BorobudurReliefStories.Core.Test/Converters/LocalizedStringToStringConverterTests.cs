@@ -18,8 +18,9 @@ namespace BorobudurReliefStories.Core.Test.Converters
         [InlineData("en", "in english")]
         [InlineData("en-GB", "in english")]
         [InlineData("id", "in bhasa")]
+        [InlineData("", "in bhasa")]
         [InlineData("id-ID", "in bhasa")]
-        [InlineData("fr-FR", "in english")]
+        [InlineData("fr-FR", "in bhasa")]
         public void LoadRepository(string cultureName, string expected)
         {
             var ci = new CultureInfo(cultureName);

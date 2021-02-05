@@ -22,14 +22,12 @@
         Grid.Row="1"
         VerticalOptions="CenterAndExpand"
         HorizontalOptions="Center"
-        FontAttributes="Bold"
+        FontSize="Large"
         Text="{Binding Name, Converter={StaticResource lStr2Str}}"
       />
       <Grid 
         IsVisible="{Binding IsASlide}"
         Margin="1"
-        HorizontalOptions="FillAndExpand"
-        VerticalOptions="FillAndExpand"
       >
         <Grid.RowDefinitions>
           <RowDefinition Height="*" />
@@ -43,6 +41,7 @@
           BackgroundColor="Gray"
           Grid.Row="0"
           Aspect="AspectFit"
+          HeightRequest="211"
           Source="{Binding Path, Converter={StaticResource str2imgsrc}, ConverterParameter='Resources.slidepics'}"
         />
         <Label
