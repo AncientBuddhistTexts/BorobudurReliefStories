@@ -17,6 +17,19 @@ namespace BorobudurReliefStories.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+
+            Xamarin.Essentials.Platform.Init(this, bundle);
+
+            Core.App.MainScreenHeight = Resources.DisplayMetrics.HeightPixels / Resources.DisplayMetrics.Density;
+            Core.App.MainScreenWidth = Resources.DisplayMetrics.WidthPixels / Resources.DisplayMetrics.Density;
+            Core.App.MainScreenDensity = Resources.DisplayMetrics.Density;
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
 }

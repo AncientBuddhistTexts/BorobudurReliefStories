@@ -19,5 +19,19 @@ namespace BorobudurReliefStories.Droid.Views
             StartActivity(typeof(MainActivity));
             return Task.CompletedTask;
         }
+
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
+
+            Xamarin.Essentials.Platform.Init(this, bundle);
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
     }
 }

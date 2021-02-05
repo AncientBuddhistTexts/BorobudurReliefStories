@@ -25,6 +25,7 @@
         Orientation="Horizontal"
       >
         <ImageButton
+          BackgroundColor="Transparent"
           WidthRequest="61"
           HeightRequest="64"
           Padding="10"

@@ -1,24 +1,26 @@
 namespace BorobudurReliefStories.Core
 {
     using MvvmCross.ViewModels;
-    using MvvmCross.IoC;
     using MvvmCross;
     using MvvmCross.Plugin;
     using System.Diagnostics.CodeAnalysis;
 
     public class App : MvxApplication
     {
+        public static double MainScreenHeight { get; set; }
+
+        public static double MainScreenWidth { get; set; }
+
+        public static double MainScreenDensity { get; set; }
+
         public override void Initialize()
         {
             base.Initialize();
 
             Mvx.IoCProvider.RegisterSingleton(AutoMapperFactory.CreateMapper(Mvx.IoCProvider.Resolve));
 
-            CreatableTypes()
-                .EndingWith("Repository")
-                .AsInterfaces()
-                .RegisterAsLazySingleton();
-
+            Mvx.IoCProvider.RegisterType<Services.IStoriesRepository, Services.StoriesRepository>();
+            Mvx.IoCProvider.RegisterType<Services.IDeviceDisplayInfo, UI.Services.DeviceDisplayInfo>();
             Mvx.IoCProvider.RegisterType<ViewModels.Stories.StoryViewModel, ViewModels.Stories.StoryViewModel>();
             Mvx.IoCProvider.RegisterType<ViewModels.Chapters.ChapterViewModel, ViewModels.Chapters.ChapterViewModel>();
             Mvx.IoCProvider.RegisterType<ViewModels.Slides.SlideViewModel, ViewModels.Slides.SlideViewModel>();
