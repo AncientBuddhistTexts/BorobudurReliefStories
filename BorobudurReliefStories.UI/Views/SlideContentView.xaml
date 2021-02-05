@@ -48,7 +48,7 @@
           Grid.Row="1"
           HorizontalOptions="Center"
           FontAttributes="Bold"
-          Text="{Binding Name2, Converter={StaticResource lStr2Str}}"
+          Text="{Binding Name, Converter={StaticResource lStr2Str}}"
         />
         <Label
           Grid.Row="2"

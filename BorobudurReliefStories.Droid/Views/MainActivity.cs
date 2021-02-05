@@ -22,7 +22,6 @@ namespace BorobudurReliefStories.Droid
 
             Core.App.MainScreenHeight = Resources.DisplayMetrics.HeightPixels / Resources.DisplayMetrics.Density;
             Core.App.MainScreenWidth = Resources.DisplayMetrics.WidthPixels / Resources.DisplayMetrics.Density;
-            Core.App.MainScreenDensity = Resources.DisplayMetrics.Density;
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)

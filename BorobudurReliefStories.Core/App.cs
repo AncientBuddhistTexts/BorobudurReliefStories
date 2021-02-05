@@ -11,8 +11,6 @@ namespace BorobudurReliefStories.Core
 
         public static double MainScreenWidth { get; set; }
 
-        public static double MainScreenDensity { get; set; }
-
         public override void Initialize()
         {
             base.Initialize();

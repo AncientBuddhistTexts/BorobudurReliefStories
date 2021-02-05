@@ -16,8 +16,6 @@ namespace BorobudurReliefStories.Core.ViewModels.Slides
 
         public double HeightRequest => _deviceDisplayInfo.Width / 1000 * 312;
 
-        public LocalizedString Name2 => new LocalizedString { En = $"{Name.En} ({_deviceDisplayInfo})", Id = $"{Name.Id} ({_deviceDisplayInfo})" };
-
         public LocalizedString Name { get; set; }
 
         public LocalizedString Caption { get; set; }
