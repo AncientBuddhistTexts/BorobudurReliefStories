@@ -39,7 +39,6 @@
     </AndroidSupportedAbis>
     <AndroidLinkSkip>BorobudurReliefStories.Core;BorobudurReliefStories.UI;</AndroidLinkSkip>
     <EmbedAssembliesIntoApk>false</EmbedAssembliesIntoApk>
-    <EnableProguard>false</EnableProguard>
     <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
@@ -56,9 +55,15 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <AndroidLinkSkip>BorobudurReliefStories.Core;BorobudurReliefStories.UI;</AndroidLinkSkip>
-    <EnableProguard>true</EnableProguard>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <LangVersion>8.0</LangVersion>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidLinkTool>r8</AndroidLinkTool>
+    <MandroidI18n />
+    <AndroidDexTool>d8</AndroidDexTool>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -105,7 +110,9 @@
     <AndroidResource Include="Resources\drawable\splash_screen.xml" />
     <AndroidResource Include="Resources\values-v19\styles.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\splash_logo.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BorobudurReliefStories.Core\BorobudurReliefStories.Core.csproj">
       <Project>{8CE0744A-6604-4FED-B14D-6F0FFCED3BD0}</Project>
@@ -115,6 +122,9 @@
       <Project>{60595813-2B71-40B0-AD23-2B3B14336AD0}</Project>
       <Name>BorobudurReliefStories.UI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
