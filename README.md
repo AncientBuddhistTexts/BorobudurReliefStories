@@ -2,7 +2,7 @@
 
 # Cerita Relief Borobudur
 
-Android and iOS app for Borobudur Kisah Relief.
+Android and iOS app for Cerita Relief Borobudur.
 
 ## Requirements
 
