@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\images\chevron-left.png" />
+    <EmbeddedResource Include="Resources\images\en.png" />
+    <EmbeddedResource Include="Resources\images\id.png" />
     <EmbeddedResource Include="Resources\slidepics\001 Bodhisattva in Tusita Heaven amongst the Gods.jpg" />
     <EmbeddedResource Include="Resources\slidepics\002 Bodhisattvas Announcement that he will be Reborn on Earth.jpg" />
     <EmbeddedResource Include="Resources\slidepics\003 The Gods take the form of Brahmins on Earth.jpg" />
@@ -149,6 +151,9 @@
     </Compile>
     <Compile Update="Pages\ChaptersPage.xaml.cs">
       <DependentUpon>ChaptersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\LocalePickerPage.xaml.cs">
+      <DependentUpon>LocalePickerPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Pages\StoriesPage.xaml.cs">
       <DependentUpon>StoriesPage.xaml</DependentUpon>

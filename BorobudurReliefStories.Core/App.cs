@@ -23,7 +23,7 @@ namespace BorobudurReliefStories.Core
             Mvx.IoCProvider.RegisterType<ViewModels.Chapters.ChapterViewModel, ViewModels.Chapters.ChapterViewModel>();
             Mvx.IoCProvider.RegisterType<ViewModels.Slides.SlideViewModel, ViewModels.Slides.SlideViewModel>();
 
-            RegisterAppStart<ViewModels.Stories.StoriesViewModel>();
+            RegisterAppStart<ViewModels.LocalePicker.LocalePickerViewModel>();
         }
 
         [SuppressMessage("Microsoft.Design", "CA1062:Validate arguments of public methods", Scope = "Method", MessageId = "0", Justification = "API called by framework.")]

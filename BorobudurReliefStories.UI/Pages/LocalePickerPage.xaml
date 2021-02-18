@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<v:MvxContentPage
+  x:Class="BorobudurReliefStories.UI.Pages.LocalePickerPage"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.LocalePicker;assembly=BorobudurReliefStories.Core"
+  xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+  NavigationPage.HasNavigationBar="False"
+  x:TypeArguments="viewModels:LocalePickerViewModel"
+>
+  <StackLayout>
+    <Label Text="What's your favorite animal?" />
+    <RadioButton>
+      <RadioButton.Content>
+        <Image Source="en.png" />
+      </RadioButton.Content>
+    </RadioButton>
+    <RadioButton>
+      <RadioButton.Content>
+        <Image Source="id.png" />
+      </RadioButton.Content>
+    </RadioButton>
+  </StackLayout>
+</v:MvxContentPage>    
