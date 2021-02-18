@@ -19,7 +19,8 @@
     <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
-    <AndroidLinkTool></AndroidLinkTool>
+    <AndroidLinkTool>
+    </AndroidLinkTool>
     <JavaMaximumHeapSize />
     <JavaOptions />
     <NuGetPackageImportStamp>
@@ -42,7 +43,8 @@
     <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
-    <AndroidLinkTool></AndroidLinkTool>
+    <AndroidLinkTool>
+    </AndroidLinkTool>
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
@@ -102,7 +104,7 @@
       <Version>1.6.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.8.0.1269</Version>
+      <Version>5.0.0.2012</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -138,7 +140,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadDebuggerTimeoutExceptionBorobudurReliefStoriesDroidHideInfoBar="True" />
+      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionBorobudurReliefStoriesDroidHideInfoBar="True" TriggeredFromHotReload="False" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
