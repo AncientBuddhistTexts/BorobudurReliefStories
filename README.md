@@ -21,3 +21,7 @@ Android and iOS app for Cerita Relief Borobudur.
 ## Examples
 
 - [Lalitavistara Storyboard 1: Conception & Pregnancy](https://www.photodharma.net/Indonesia/05-Lalitavistara-Storyboard-2/Lalitavistara-Storyboard-1-Conception.htm)
+
+## Attribution
+
+- Flags from [flaticon.com](https://www.flaticon.com/free-icon/)

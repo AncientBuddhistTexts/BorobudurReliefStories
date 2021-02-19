@@ -5,20 +5,63 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.LocalePicker;assembly=BorobudurReliefStories.Core"
   xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+  xmlns:b="clr-namespace:BorobudurReliefStories.UI.Behaviors"
+  xmlns:e="clr-namespace:BorobudurReliefStories.UI.Extensions"
+  xmlns:xf="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Core"
   NavigationPage.HasNavigationBar="False"
   x:TypeArguments="viewModels:LocalePickerViewModel"
 >
-  <StackLayout>
-    <Label Text="What's your favorite animal?" />
-    <RadioButton>
-      <RadioButton.Content>
-        <Image Source="en.png" />
-      </RadioButton.Content>
-    </RadioButton>
-    <RadioButton>
-      <RadioButton.Content>
-        <Image Source="id.png" />
-      </RadioButton.Content>
-    </RadioButton>
+  <v:MvxContentPage.Resources>
+    <ResourceDictionary>
+      <xf:ColorTypeConverter x:Key="str2Col" />
+    </ResourceDictionary>
+  </v:MvxContentPage.Resources>
+
+  <StackLayout
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+  >
+    <StackLayout
+      Orientation="Horizontal"
+    >
+      <Image
+        WidthRequest="32"
+        Source="{e:ImageResource Resources.images.id.png}"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+      >
+      </Image>
+      <Button Text="bahasa Indonesia"
+        WidthRequest="200"
+        BackgroundColor="{Binding IdButtonBackgroundColor}"
+        BorderRadius="10"
+        HorizontalOptions="Center"
+      >
+        <Button.Behaviors>
+          <b:EventToCommandBehavior EventName="Pressed" Command="{Binding IdButtonPressed}" />
+        </Button.Behaviors>
+      </Button>
+    </StackLayout>
+    <StackLayout
+      Orientation="Horizontal"
+    >
+      <Image
+        WidthRequest="32"
+        Source="{e:ImageResource Resources.images.en.png}"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+      >
+      </Image>
+      <Button Text="English"
+        WidthRequest="200"
+        BackgroundColor="{Binding EnButtonBackgroundColor}"
+        BorderRadius="10"
+        HorizontalOptions="Center"
+      >
+        <Button.Behaviors>
+          <b:EventToCommandBehavior EventName="Pressed" Command="{Binding EnButtonPressed}" />
+        </Button.Behaviors>
+      </Button>
+    </StackLayout>
   </StackLayout>
 </v:MvxContentPage>    
