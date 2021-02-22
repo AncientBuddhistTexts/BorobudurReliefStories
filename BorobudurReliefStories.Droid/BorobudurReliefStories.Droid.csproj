@@ -78,6 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyAttributes.cs" />
     <Compile Include="Linker\LinkerPleaseInclude.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -140,7 +141,7 @@
   </Target>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionBorobudurReliefStoriesDroidHideInfoBar="True" TriggeredFromHotReload="False" />
+      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadDebuggerTimeoutExceptionBorobudurReliefStoriesDroidHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
