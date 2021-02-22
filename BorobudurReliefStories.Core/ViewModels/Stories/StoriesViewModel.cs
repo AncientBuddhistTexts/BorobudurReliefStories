@@ -2,20 +2,27 @@ namespace BorobudurReliefStories.Core.ViewModels.Stories
 {
     using System.Collections.ObjectModel;
     using System.Linq;
+    using System.Windows.Input;
     using AutoMapper;
     using BorobudurReliefStories.Core.Services;
+    using BorobudurReliefStories.Core.ViewModels.LocalePicker;
+    using MvvmCross.Commands;
+    using MvvmCross.Navigation;
     using MvvmCross.ViewModels;
 
     public class StoriesViewModel : MvxViewModel
     {
+        private readonly IMvxNavigationService _navigationService;
         private readonly IMapper _mapper;
         private readonly IStoriesRepository _storiesRepository;
 
         public ObservableCollection<StoryViewModel> Stories { get; } = new ObservableCollection<StoryViewModel>();
 
+        public ICommand ShowSettingsCommand => new MvxCommand(async () => await _navigationService.Navigate<LocalePickerViewModel>());
 
-        public StoriesViewModel(IMapper mapper, IStoriesRepository storiesRepository)
+        public StoriesViewModel(IMvxNavigationService navigationService, IMapper mapper, IStoriesRepository storiesRepository)
         {
+            _navigationService = navigationService;
             _mapper = mapper;
             _storiesRepository = storiesRepository;
         }
