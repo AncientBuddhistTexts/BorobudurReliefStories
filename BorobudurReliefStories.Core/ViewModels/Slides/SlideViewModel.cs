@@ -1,6 +1,5 @@
 namespace BorobudurReliefStories.Core.ViewModels.Slides
 {
-    using BorobudurReliefStories.Core.Models;
     using BorobudurReliefStories.Core.Services;
     using MvvmCross.ViewModels;
 
@@ -16,9 +15,9 @@ namespace BorobudurReliefStories.Core.ViewModels.Slides
 
         public double HeightRequest => _deviceDisplayInfo.Width / 1000 * 312;
 
-        public LocalizedString Name { get; set; }
+        public string Name { get; set; }
 
-        public LocalizedString Caption { get; set; }
+        public string Caption { get; set; }
 
         public SlideViewModel(IDeviceDisplayInfo deviceDisplayInfo)
         {

@@ -13,15 +13,12 @@ namespace BorobudurReliefStories.Core.ViewModels.LocalePicker
     {
         private const string SelectedColor = "accent";
         private const string UnselectedColor = "default";
-        private const string DefaultLocale = "id";
-        private const string DefaultLocaleSettingsKey = "locale";
         private readonly IMvxNavigationService _navigationService;
         private readonly IAppSettingsService _appSettings;
-        private string _locale;
 
-        public string IdButtonBackgroundColor => _locale == "id" ? SelectedColor : UnselectedColor;
+        public string IdButtonBackgroundColor => _appSettings.Locale == "id" ? SelectedColor : UnselectedColor;
 
-        public string EnButtonBackgroundColor => _locale == "en" ? SelectedColor : UnselectedColor;
+        public string EnButtonBackgroundColor => _appSettings.Locale == "en" ? SelectedColor : UnselectedColor;
 
         public ICommand IdButtonPressed => new MvxCommand(async () => await SaveLocaleAndProceedToStoriesPageAsync("id")());
 
@@ -37,7 +34,6 @@ namespace BorobudurReliefStories.Core.ViewModels.LocalePicker
         {
             base.ViewAppearing();
 
-            _locale = _appSettings.Load(DefaultLocaleSettingsKey, DefaultLocale);
             RaisePropertyChanged(() => IdButtonBackgroundColor);
             RaisePropertyChanged(() => EnButtonBackgroundColor);
         }
@@ -46,8 +42,7 @@ namespace BorobudurReliefStories.Core.ViewModels.LocalePicker
         {
             return async () =>
             {
-                _locale = locale;
-                _appSettings.Save(DefaultLocaleSettingsKey, _locale);
+                _appSettings.Locale = locale;
                 await _navigationService.Navigate<StoriesViewModel>();
             };
         }

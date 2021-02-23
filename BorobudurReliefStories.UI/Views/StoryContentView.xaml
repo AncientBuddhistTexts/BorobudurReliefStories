@@ -4,18 +4,11 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:v="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
   xmlns:viewModels="clr-namespace:BorobudurReliefStories.Core.ViewModels.Stories;assembly=BorobudurReliefStories.Core"
-  xmlns:c="clr-namespace:BorobudurReliefStories.UI.Converters"
   xmlns:b="clr-namespace:BorobudurReliefStories.UI.Behaviors"
   xmlns:e="clr-namespace:BorobudurReliefStories.UI.Extensions"
   x:Class="BorobudurReliefStories.UI.Views.StoryContentView"
   x:TypeArguments="viewModels:StoryViewModel"
 >
-  <v:MvxContentView.Resources>
-    <ResourceDictionary>
-      <c:LocalizedStringValueConverter x:Key="lStr2Str" />
-    </ResourceDictionary>
-  </v:MvxContentView.Resources>
-
   <ContentView.Content>
     <Frame
       BorderColor="Gray"
@@ -41,14 +34,14 @@
           <Label
             FontSize="Large"
             FontAttributes="Bold"
-            Text="{Binding Name, Converter={StaticResource lStr2Str}}"
+            Text="{Binding Name}"
           />
           <Label
             Text="{Binding Author}"
           />
           <Label
             FontSize="Medium"
-            Text="{Binding Description, Converter={StaticResource lStr2Str}}"
+            Text="{Binding Description}"
           />
         </StackLayout>
       </StackLayout>

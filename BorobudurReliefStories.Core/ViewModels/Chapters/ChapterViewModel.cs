@@ -2,7 +2,6 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
 {
     using System.Threading.Tasks;
     using System.Windows.Input;
-    using BorobudurReliefStories.Core.Models;
     using BorobudurReliefStories.Core.Services;
     using BorobudurReliefStories.Core.ViewModels.Slides;
     using MvvmCross.Commands;
@@ -18,7 +17,7 @@ namespace BorobudurReliefStories.Core.ViewModels.Chapters
 
         public string StoryId { get; set; }
 
-        public LocalizedString Name { get; set; }
+        public string Name { get; set; }
 
         public ICommand SelectChapterCommand => new MvxCommand(async () => await SelectChapterAsync());
 

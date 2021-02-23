@@ -10,7 +10,6 @@
 >
   <v:MvxContentView.Resources>
     <ResourceDictionary>
-      <c:LocalizedStringValueConverter x:Key="lStr2Str" />
       <c:StringToImageSourceConverter x:Key="str2imgsrc" />
     </ResourceDictionary>
   </v:MvxContentView.Resources>
@@ -23,7 +22,7 @@
         VerticalOptions="CenterAndExpand"
         HorizontalOptions="Center"
         FontSize="Large"
-        Text="{Binding Name, Converter={StaticResource lStr2Str}}"
+        Text="{Binding Name}"
       />
       <Grid 
         IsVisible="{Binding IsASlide}"
@@ -48,13 +47,13 @@
           Grid.Row="1"
           HorizontalOptions="Center"
           FontAttributes="Bold"
-          Text="{Binding Name, Converter={StaticResource lStr2Str}}"
+          Text="{Binding Name}"
         />
         <Label
           Grid.Row="2"
           VerticalOptions="Start"
           VerticalTextAlignment="Start"
-          Text="{Binding Caption, Converter={StaticResource lStr2Str}}"
+          Text="{Binding Caption}"
         />
       </Grid>
     </StackLayout>

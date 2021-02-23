@@ -5,14 +5,13 @@ namespace BorobudurReliefStories.UI.Services
 
     public sealed class AppSettingsService : IAppSettingsService
     {
-        public string Load(string key, string defaultValue)
-        {
-            return Preferences.Get(key, defaultValue);
-        }
+        private const string DefaultLocale = "id";
+        private const string LocaleSettingsKey = "locale";
 
-        public void Save(string key, string value)
+        public string Locale
         {
-            Preferences.Set(key, value);
+            get => Preferences.Get(LocaleSettingsKey, DefaultLocale);
+            set => Preferences.Set(LocaleSettingsKey, value);
         }
     }
 }
