@@ -7,11 +7,19 @@ namespace BorobudurReliefStories.UI.Services
     {
         private const string DefaultLocale = "id";
         private const string LocaleSettingsKey = "locale";
+        private const bool DefaultFirstLaunch = true;
+        private const string FirstLaunchSettingsKey = "firstLaunch2";
 
         public string Locale
         {
             get => Preferences.Get(LocaleSettingsKey, DefaultLocale);
             set => Preferences.Set(LocaleSettingsKey, value);
+        }
+
+        public bool FirstLaunch
+        {
+            get => Preferences.Get(FirstLaunchSettingsKey, DefaultFirstLaunch);
+            set => Preferences.Set(FirstLaunchSettingsKey, value);
         }
     }
 }
