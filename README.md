@@ -18,9 +18,13 @@ Android and iOS app for Cerita Relief Borobudur.
 
 - Ability to add audio
 
-## Examples
+### Examples
 
 - [Lalitavistara Storyboard 1: Conception & Pregnancy](https://www.photodharma.net/Indonesia/05-Lalitavistara-Storyboard-2/Lalitavistara-Storyboard-1-Conception.htm)
+
+## Development
+
+- Before releasing on Play Store ensure app is signed with [dharmarecords signing identity](/Keystore/dharmarecords/dharmarecords.keystore).
 
 ## Attribution
 
