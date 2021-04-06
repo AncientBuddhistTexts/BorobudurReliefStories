@@ -1,8 +1,10 @@
-[![Continuous Deployment](https://github.com/dharmarecords/cerita-relief-lalitavistara/workflows/Continuous%20Integration/badge.svg)](https://github.com/dharmarecords/cerita-relief-lalitavistara/actions?query=workflow)  [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Continuous Deployment](https://github.com/dharmarecords/cerita-relief-lalitavistara/workflows/Continuous%20Integration/badge.svg)](https://github.com/dharmarecords/cerita-relief-lalitavistara/actions?query=workflow) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Cerita Relief Lalitavistara
 
 Android and iOS app for Cerita Relief Lalitavistara.
+
+<a href='https://play.google.com/store/apps/details?id=net.photodharma.apps.lalitavistara' style="margin-top: 100px; padding: 0px"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="64" style="margin: 0px; padding: 0px"/></a>
 
 ## Requirements
 
