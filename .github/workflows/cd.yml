@@ -11,10 +11,10 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run tests
       run: |
-        dotnet test --configuration "Debug" DR.CeritaReliefBorobudur.Core.Test/DR.CeritaReliefBorobudur.Core.Test.csproj
-        dotnet test --configuration "Debug" DR.CeritaReliefBorobudur.UI.Test/DR.CeritaReliefBorobudur.UI.Test.csproj
-        dotnet test --configuration "Release" DR.CeritaReliefBorobudur.Core.Test/DR.CeritaReliefBorobudur.Core.Test.csproj
-        dotnet test --configuration "Release" DR.CeritaReliefBorobudur.UI.Test/DR.CeritaReliefBorobudur.UI.Test.csproj
+        dotnet test --configuration "Debug" DR.CeritaReliefLalitavistara.Core.Test/DR.CeritaReliefLalitavistara.Core.Test.csproj
+        dotnet test --configuration "Debug" DR.CeritaReliefLalitavistara.UI.Test/DR.CeritaReliefLalitavistara.UI.Test.csproj
+        dotnet test --configuration "Release" DR.CeritaReliefLalitavistara.Core.Test/DR.CeritaReliefLalitavistara.Core.Test.csproj
+        dotnet test --configuration "Release" DR.CeritaReliefLalitavistara.UI.Test/DR.CeritaReliefLalitavistara.UI.Test.csproj
 
   Android:
     runs-on: macos-latest
@@ -23,8 +23,8 @@ jobs:
     - name: Build for Droid
       run: |
         nuget restore
-        msbuild DR.CeritaReliefBorobudur.Droid/DR.CeritaReliefBorobudur.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
-        msbuild DR.CeritaReliefBorobudur.Droid/DR.CeritaReliefBorobudur.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
+        msbuild DR.CeritaReliefLalitavistara.Droid/DR.CeritaReliefLalitavistara.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild DR.CeritaReliefLalitavistara.Droid/DR.CeritaReliefLalitavistara.Droid.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
 
   iOS:
     runs-on: macos-latest
@@ -33,5 +33,5 @@ jobs:
     - name: Build for iOS
       run: |
         nuget restore
-        msbuild DR.CeritaReliefBorobudur.iOS/DR.CeritaReliefBorobudur.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
-        msbuild DR.CeritaReliefBorobudur.iOS/DR.CeritaReliefBorobudur.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
+        msbuild DR.CeritaReliefLalitavistara.iOS/DR.CeritaReliefLalitavistara.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild DR.CeritaReliefLalitavistara.iOS/DR.CeritaReliefLalitavistara.iOS.csproj /verbosity:normal /t:Rebuild /p:Configuration=Release
